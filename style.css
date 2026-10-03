@@ -203,3 +203,14 @@ footer a:hover { color: var(--green); }
 }
 .avatar.grey { background: #e4e4e1; color: var(--grey); }
 .avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Startseite mit Titelbild */
+.hero.photo {
+  padding: clamp(110px, 20vw, 230px) 0 clamp(100px, 16vw, 190px);
+  background:
+    radial-gradient(ellipse at 50% 45%, rgba(243, 243, 241, 0.88) 0%, rgba(243, 243, 241, 0.6) 38%, rgba(243, 243, 241, 0) 70%),
+    linear-gradient(180deg, rgba(243, 243, 241, 0) 65%, var(--bg) 100%),
+    url(assets/hero.svg) center / cover no-repeat;
+}
+.hero.photo h1 { text-shadow: 0 1px 24px rgba(243, 243, 241, 0.9); }
+.hero.photo .lead { color: #4a4a4a; }
