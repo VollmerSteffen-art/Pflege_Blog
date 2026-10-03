@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
 <title>Mitmachen · Pflege Blog</title>
 <meta name="description" content="Auszubildende aus der Pflege können hier ihre Sicht teilen.">
 <link rel="stylesheet" href="style.css">
@@ -13,7 +12,7 @@
   <div class="wrap">
     <a class="brand" href="index.html">Pflege Blog</a>
     <button class="toggle" aria-expanded="false" aria-label="Menü öffnen">Menü</button>
-    <ul class="menu"><li><a href="index.html">Start</a></li><li><a href="ueber-mich.html">Über mich</a></li><li><a href="blog.html">Blog</a></li><li><a href="podcast.html">Podcast</a></li><li><a href="mitmachen.html" aria-current="page">Mitmachen</a></li><li><a href="kooperation.html">Kooperation</a></li></ul>
+    <ul class="menu"><li><a href="index.html">Start</a></li><li><a href="ueber-mich.html">Über mich</a></li><li><a href="blog.html">Blog</a></li><li><a href="podcast.html">Podcast</a></li><li><a href="team.html">Team</a></li><li><a href="mitmachen.html" aria-current="page">Mitmachen</a></li><li><a href="kooperation.html">Kooperation</a></li></ul>
   </div>
 </header>
 <main>
@@ -22,7 +21,7 @@
   <div class="wrap">
     <p class="eyebrow">Mitmachen</p>
     <h1>Schreib mit.</h1>
-    <p class="lead">Du bist auch in der Pflegeausbildung und möchtest deine Sicht teilen? Hier ist Platz dafür.</p>
+    <p class="lead">Du bist auch in der Pflegeausbildung und möchtest deine Sicht teilen? Du bekommst eine eigene Autorenseite.</p>
   </div>
 </div>
 
@@ -31,18 +30,46 @@
   <div class="wrap">
     <div class="grid">
       <div class="card reveal"><h3>Wer kann mitmachen?</h3><p>Auszubildende und Lernende aus der Pflege, zum Beispiel aus meiner Klasse oder aus anderen Kursen.</p></div>
-      <div class="card reveal delay1"><h3>Worüber schreiben?</h3><p>Über deinen Alltag, Lerntipps, Fragen, Erfolge und auch Dinge, die schwierig waren.</p></div>
-      <div class="card reveal delay2"><h3>Die Regeln</h3>
+      <div class="card reveal delay1"><h3>Was bekommst du?</h3><p>Eine eigene Autorenseite hier im Blog mit deinen Beiträgen, auf Wunsch mit Bild und einem Link zu deiner eigenen Seite.</p></div>
+      <div class="card reveal delay2"><h3>Wie läuft es ab?</h3>
         <ul class="clean">
-          <li>Keine Namen und keine Daten von Bewohnern</li>
-          <li>Keine Namen von Kolleginnen und Kollegen</li>
-          <li>Keine Angaben zu Arbeitgeber, Einrichtung oder Schule</li>
-          <li>Fachliche Aussagen mit Quelle</li>
+          <li>Du schickst mir deinen Text per Mail</li>
+          <li>Ich prüfe ihn auf Rechtschreibung und Datenschutz</li>
+          <li>Du bekommst die Fassung zur Freigabe</li>
+          <li>Ich veröffentliche ihn auf deiner Autorenseite</li>
         </ul>
       </div>
     </div>
-    <div class="narrow reveal" style="margin-top:50px">
-      <div class="notice">Die Kontaktmöglichkeit wird noch ergänzt. Bis dahin sprich mich gern direkt an.</div>
+
+    <div class="narrow reveal" style="margin-top:60px">
+      <h2>Die Regeln</h2>
+      <ul class="clean">
+        <li>Keine Namen und keine Daten von Bewohnerinnen und Bewohnern</li>
+        <li>Keine Namen von Kolleginnen und Kollegen</li>
+        <li>Keine Angaben zu Arbeitgeber, Einrichtung oder Schule</li>
+        <li>Fachliche Aussagen mit Quelle, die du selbst gelesen hast</li>
+        <li>Dein Name, dein Bild und dein Link erscheinen nur mit deiner ausdrücklichen Zustimmung, und du kannst sie jederzeit wieder entfernen lassen</li>
+      </ul>
+    </div>
+
+    <div class="narrow reveal" style="margin-top:60px">
+      <h2>Schreib mir</h2>
+      <p class="muted">Das Formular öffnet dein Mailprogramm mit einer fertigen Nachricht. Es wird nichts über diese Seite gesendet. Du kannst auch direkt an <a href="mailto:vollmer.steffen@icloud.com?subject=Pflegeblog">vollmer.steffen@icloud.com</a> schreiben, Betreff Pflegeblog.</p>
+      <form class="contact" id="kontakt" novalidate>
+        <label for="k-name">Dein Name oder Vorname</label>
+        <input id="k-name" name="name" type="text" autocomplete="name">
+        <label for="k-thema">Worum geht es?</label>
+        <select id="k-thema" name="thema">
+          <option>Ich möchte als Autorin oder Autor mitmachen</option>
+          <option>Ich habe einen Beitrag zum Veröffentlichen</option>
+          <option>Frage zum Blog</option>
+          <option>Kooperation</option>
+          <option>Etwas anderes</option>
+        </select>
+        <label for="k-text">Deine Nachricht</label>
+        <textarea id="k-text" name="text" rows="7"></textarea>
+        <button class="btn" type="submit">Mailprogramm öffnen</button>
+      </form>
     </div>
   </div>
 </section>

@@ -41,3 +41,17 @@
     });
   });
 })();
+
+// Kontaktformular: öffnet das Mailprogramm, sendet selbst nichts
+(function () {
+  var form = document.getElementById('kontakt');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var name = form.elements['name'].value.trim();
+    var thema = form.elements['thema'].value;
+    var text = form.elements['text'].value.trim();
+    var body = 'Thema: ' + thema + '\r\n' + (name ? 'Name: ' + name + '\r\n' : '') + '\r\n' + text;
+    window.location.href = 'mailto:vollmer.steffen@icloud.com?subject=' + encodeURIComponent('Pflegeblog') + '&body=' + encodeURIComponent(body);
+  });
+})();
