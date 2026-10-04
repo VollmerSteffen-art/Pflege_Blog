@@ -269,3 +269,7 @@ footer a:hover { color: var(--green); }
 footer { background: var(--ink); color: #c6cfc8; border-top: 0; margin-top: 40px; }
 footer a { color: #e8eee9; }
 footer a:hover { color: #a9d196; }
+
+/* Logo in der Navigation */
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand .logo { display: block; border-radius: 9px; }
