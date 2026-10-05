@@ -288,6 +288,6 @@ footer a:hover { color: #a9d196; }
 .cte-box { flex: 1 1 140px; min-width: 0; background: var(--green-soft); border: 1px solid var(--green); border-radius: 10px; padding: 8px 12px; font-size: 0.95rem; }
 .cte-box b { display: block; }
 .cte-box span { color: var(--grey); font-size: 0.85rem; }
-.article ul.lern { padding-left: 1.3em; }
-.article ul.lern li { margin-bottom: 0.7em; font-size: 1.12rem; }
-.article ul.lern li::marker { color: var(--green); }
+.article ul.lern, .article ol.lern { padding-left: 1.3em; }
+.article ul.lern li, .article ol.lern li { margin-bottom: 0.7em; font-size: 1.12rem; }
+.article ul.lern li::marker, .article ol.lern li::marker { color: var(--green); font-weight: 700; }
