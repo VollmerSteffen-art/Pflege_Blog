@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pflegeblog-pflegelabor.netlify.app/sitemap.xml
+Sitemap: https://vollmersteffen-art.github.io/Pflege_Blog/sitemap.xml
