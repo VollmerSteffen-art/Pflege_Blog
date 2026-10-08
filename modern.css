@@ -172,3 +172,10 @@ section.soft { background: var(--green-mist); }
   background: rgba(255, 255, 255, 0.95); color: var(--vb-ink); font-weight: 800; letter-spacing: 0.04em;
   font-size: clamp(1rem, 3.4vw, 1.5rem); box-shadow: 0 8px 24px rgba(20, 32, 26, 0.35);
 }
+
+/* Titelbilder der Beiträge */
+.post-card { overflow: hidden; }
+.post-card .thumb {
+  display: block; width: calc(100% + 56px); max-width: none; height: auto; aspect-ratio: 1200 / 630;
+  margin: -30px -28px 22px; object-fit: cover; background: var(--vb-ink);
+}
