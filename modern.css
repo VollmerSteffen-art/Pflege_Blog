@@ -162,3 +162,13 @@ section.soft { background: var(--green-mist); }
 .footer-socials { justify-content: center; margin: 0 0 22px; }
 @media (max-width: 820px) { .tile { min-height: 0; } }
 @media (prefers-reduced-motion: reduce) { .tile, .tile .tile-go { transition: none; } }
+
+/* Podcast Titelbild mit schrägem Hinweis */
+.cover { position: relative; overflow: hidden; border-radius: 26px; max-width: 460px; margin: 0 0 24px; box-shadow: var(--shadow-soft); background: var(--vb-ink); }
+.cover img { display: block; width: 100%; height: auto; }
+.cover .ribbon {
+  position: absolute; left: 50%; top: 50%; width: 150%; padding: 14px 0; text-align: center;
+  transform: translate(-50%, -50%) rotate(-20deg);
+  background: rgba(255, 255, 255, 0.95); color: var(--vb-ink); font-weight: 800; letter-spacing: 0.04em;
+  font-size: clamp(1rem, 3.4vw, 1.5rem); box-shadow: 0 8px 24px rgba(20, 32, 26, 0.35);
+}
