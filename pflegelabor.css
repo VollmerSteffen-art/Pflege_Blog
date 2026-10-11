@@ -18,7 +18,7 @@
   /* Markenfarben */
   --pl-navy: #0B1F3A;          /* Primary: Seriosität, Wissenschaft */
   --pl-navy-2: #12305A;        /* Navy heller, für Verläufe */
-  --pl-turquoise: #0A7C84;     /* Secondary auf Hell: Links, Akzente (4,97:1 auf Weiß) */
+  --pl-turquoise: #097179;     /* Secondary auf Hell: Links, Akzente (5,75:1 auf Weiß, 5,11:1 auf Türkis weich) */
   --pl-turquoise-bright: #2DD4C8; /* Akzent auf Navy */
   --pl-green: #1E7B4A;         /* Accent auf Hell: Pflege, Entwicklung (5,27:1) */
   --pl-green-bright: #5FD39A;  /* Akzent auf Navy */
@@ -213,3 +213,6 @@ footer a:hover { color: var(--pl-turquoise-bright); }
 .vb-hero::after, .vb-glow { background: radial-gradient(circle, rgba(10, 124, 132, 0.55), rgba(10, 124, 132, 0) 68%); }
 .vb-dot { box-shadow: 0 0 0 0 rgba(45, 212, 200, 0.6); }
 @keyframes vb-pulse { 0% { box-shadow: 0 0 0 0 rgba(45, 212, 200, 0.6); } 70% { box-shadow: 0 0 0 12px rgba(45, 212, 200, 0); } 100% { box-shadow: 0 0 0 0 rgba(45, 212, 200, 0); } }
+
+/* Blog-Karten: h2 statt h3 (Überschriftenfolge), gleiche Optik */
+.card h2 { font-size: 1.3rem; letter-spacing: -0.01em; margin-bottom: 0.4em; font-weight: 700; color: var(--pl-navy); }
