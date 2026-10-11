@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Dekubitus Kategorie 1 bis 4 im Hautquerschnitt</title>
+  <desc id="d1">Schemazeichnung von vier Hautquerschnitten. Kategorie 1: intakte Haut mit nicht wegdrückbarer Rötung. Kategorie 2: Teilverlust der Haut bis in die Lederhaut. Kategorie 3: vollständiger Hautverlust, Muskel und Knochen nicht freigelegt. Kategorie 4: vollständiger Gewebeverlust mit sichtbarem Muskel, Sehne oder Knochen.</desc>
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+  <text x="600" y="48" text-anchor="middle" font-size="30" font-weight="bold" fill="#0B1F3A">Dekubitus: Kategorie 1 bis 4 im Hautquerschnitt</text>
+  <text x="600" y="78" text-anchor="middle" font-size="16" fill="#44546A">Je tiefer die Schädigung reicht, desto höher die Kategorie</text>
+
+  <!-- Panel Hintergründe -->
+  <g>
+    <rect x="30" y="100" width="270" height="400" rx="10" fill="#F7F9FC" stroke="#C9D3E0"/>
+    <rect x="320" y="100" width="270" height="400" rx="10" fill="#F7F9FC" stroke="#C9D3E0"/>
+    <rect x="610" y="100" width="270" height="400" rx="10" fill="#F7F9FC" stroke="#C9D3E0"/>
+    <rect x="900" y="100" width="270" height="400" rx="10" fill="#F7F9FC" stroke="#C9D3E0"/>
+  </g>
+
+  <!-- Kopfzeilen -->
+  <g font-size="22" font-weight="bold" fill="#0B1F3A" text-anchor="middle">
+    <text x="165" y="134">Kategorie 1</text>
+    <text x="455" y="134">Kategorie 2</text>
+    <text x="745" y="134">Kategorie 3</text>
+    <text x="1035" y="134">Kategorie 4</text>
+  </g>
+
+  <!-- Schichten Panel 1 -->
+  <g stroke="#7A6A55" stroke-width="1">
+    <rect x="45" y="170" width="240" height="14" fill="#F2C9A0"/>
+    <rect x="45" y="184" width="240" height="50" fill="#E8A87C"/>
+    <rect x="45" y="234" width="240" height="70" fill="#F6E3A1"/>
+    <rect x="45" y="304" width="240" height="70" fill="#C97A7A"/>
+    <rect x="45" y="374" width="240" height="50" fill="#EDE6D6"/>
+  </g>
+  <!-- Kat 1 Rötung -->
+  <rect x="100" y="164" width="130" height="8" rx="3" fill="#D64545"/>
+  <path d="M105 184 Q165 214 225 184 Z" fill="#E9777A" opacity="0.65"/>
+
+  <!-- Schichten Panel 2 -->
+  <g stroke="#7A6A55" stroke-width="1">
+    <rect x="335" y="170" width="240" height="14" fill="#F2C9A0"/>
+    <rect x="335" y="184" width="240" height="50" fill="#E8A87C"/>
+    <rect x="335" y="234" width="240" height="70" fill="#F6E3A1"/>
+    <rect x="335" y="304" width="240" height="70" fill="#C97A7A"/>
+    <rect x="335" y="374" width="240" height="50" fill="#EDE6D6"/>
+  </g>
+  <!-- Kat 2 Ausschnitt bis Dermis -->
+  <polygon points="385,170 525,170 515,206 395,206" fill="#F7F9FC" stroke="#7A6A55" stroke-width="1"/>
+  <polygon points="395,206 515,206 505,214 405,214" fill="#E98C8C"/>
+
+  <!-- Schichten Panel 3 -->
+  <g stroke="#7A6A55" stroke-width="1">
+    <rect x="625" y="170" width="240" height="14" fill="#F2C9A0"/>
+    <rect x="625" y="184" width="240" height="50" fill="#E8A87C"/>
+    <rect x="625" y="234" width="240" height="70" fill="#F6E3A1"/>
+    <rect x="625" y="304" width="240" height="70" fill="#C97A7A"/>
+    <rect x="625" y="374" width="240" height="50" fill="#EDE6D6"/>
+  </g>
+  <!-- Kat 3 Ausschnitt bis Subkutis -->
+  <polygon points="665,170 825,170 805,288 685,288" fill="#F7F9FC" stroke="#7A6A55" stroke-width="1"/>
+  <polygon points="685,288 805,288 800,300 690,300" fill="#E98C8C"/>
+
+  <!-- Schichten Panel 4 -->
+  <g stroke="#7A6A55" stroke-width="1">
+    <rect x="915" y="170" width="240" height="14" fill="#F2C9A0"/>
+    <rect x="915" y="184" width="240" height="50" fill="#E8A87C"/>
+    <rect x="915" y="234" width="240" height="70" fill="#F6E3A1"/>
+    <rect x="915" y="304" width="240" height="70" fill="#C97A7A"/>
+    <rect x="915" y="374" width="240" height="50" fill="#EDE6D6"/>
+  </g>
+  <!-- Kat 4 Ausschnitt bis Knochen -->
+  <polygon points="945,170 1125,170 1095,376 975,376" fill="#F7F9FC" stroke="#7A6A55" stroke-width="1"/>
+  <path d="M975 376 Q1035 392 1095 376 L1090 384 Q1035 398 980 384 Z" fill="#E98C8C"/>
+
+  <!-- Beschreibung unter den Panels -->
+  <g font-size="16" fill="#1F2937" text-anchor="middle">
+    <text x="165" y="450">Intakte Haut, Rötung</text>
+    <text x="165" y="472">nicht wegdrückbar</text>
+    <text x="455" y="450">Teilverlust der Haut bis</text>
+    <text x="455" y="472">in die Lederhaut (Dermis)</text>
+    <text x="745" y="450">Vollständiger Hautverlust,</text>
+    <text x="745" y="472">Fett sichtbar</text>
+    <text x="1035" y="450">Vollständiger Gewebeverlust,</text>
+    <text x="1035" y="472">Muskel, Sehne oder Knochen sichtbar</text>
+  </g>
+
+  <!-- Legende -->
+  <g font-size="15" fill="#1F2937">
+    <rect x="60" y="540" width="22" height="14" fill="#F2C9A0" stroke="#7A6A55"/>
+    <text x="90" y="552">Oberhaut (Epidermis)</text>
+    <rect x="270" y="540" width="22" height="14" fill="#E8A87C" stroke="#7A6A55"/>
+    <text x="300" y="552">Lederhaut (Dermis)</text>
+    <rect x="460" y="540" width="22" height="14" fill="#F6E3A1" stroke="#7A6A55"/>
+    <text x="490" y="552">Unterhautfettgewebe</text>
+    <rect x="660" y="540" width="22" height="14" fill="#C97A7A" stroke="#7A6A55"/>
+    <text x="690" y="552">Muskel</text>
+    <rect x="780" y="540" width="22" height="14" fill="#EDE6D6" stroke="#7A6A55"/>
+    <text x="810" y="552">Knochen</text>
+    <rect x="910" y="540" width="22" height="14" fill="#E98C8C" stroke="#7A6A55"/>
+    <text x="940" y="552">Wundgrund</text>
+  </g>
+
+  <!-- Fußnote -->
+  <g font-size="14" fill="#44546A">
+    <text x="30" y="600">Vereinfachte Schemazeichnung, nicht maßstabsgetreu (eigene Darstellung).</text>
+    <text x="30" y="624">Kategorien nach EPUAP, NPIAP und PPPIA (2019), deutsche Kurzfassung, S. 39 bis 42.</text>
+    <text x="30" y="648">Nicht abgebildet: nicht zuordenbarer Dekubitus und vermutete tiefe Gewebeschädigung (S. 43 und 44).</text>
+    <text x="30" y="672">pflegelaborblog.de · Information und Bildung, keine individuelle medizinische Beratung</text>
+  </g>
+</svg>

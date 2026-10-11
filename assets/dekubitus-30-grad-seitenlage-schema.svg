@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="t2 d2">
+  <title id="t2">30 Grad Seitenlage im Vergleich zur 90 Grad Seitenlage</title>
+  <desc id="d2">Schemazeichnung des Körperquerschnitts auf einer Matratze. Links die 90 Grad Seitenlage mit Druck auf einer kleinen Fläche am Hüftknochen. Rechts die 30 Grad Seitenlage mit Keilkissen im Rücken, der Druck verteilt sich auf eine größere Fläche.</desc>
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+  <text x="600" y="48" text-anchor="middle" font-size="30" font-weight="bold" fill="#0B1F3A">Seitenlage: 90 Grad oder 30 Grad?</text>
+  <text x="600" y="78" text-anchor="middle" font-size="16" fill="#44546A">Die Leitlinie empfiehlt bei der Positionierung bevorzugt die 30 Grad Seitenposition</text>
+
+  <!-- Panels -->
+  <rect x="30" y="100" width="550" height="440" rx="10" fill="#F7F9FC" stroke="#C9D3E0"/>
+  <rect x="620" y="100" width="550" height="440" rx="10" fill="#F7F9FC" stroke="#C9D3E0"/>
+
+  <text x="305" y="136" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B1F3A">90 Grad Seitenlage</text>
+  <text x="895" y="136" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B1F3A">30 Grad Seitenlage</text>
+
+  <!-- Matratze links -->
+  <rect x="60" y="400" width="490" height="46" rx="8" fill="#8FB8DE" stroke="#4F7FB0"/>
+  <!-- Körper links: aufrechte Ellipse, liegt auf der Seite -->
+  <ellipse cx="305" cy="300" rx="62" ry="100" fill="#F2C9A0" stroke="#7A6A55" stroke-width="2"/>
+  <text x="305" y="296" text-anchor="middle" font-size="14" fill="#7A4A25">Körper</text>
+  <text x="305" y="314" text-anchor="middle" font-size="14" fill="#7A4A25">(Querschnitt)</text>
+  <!-- Druckpunkt links -->
+  <circle cx="305" cy="398" r="9" fill="#D64545"/>
+  <line x1="305" y1="478" x2="305" y2="416" stroke="#D64545" stroke-width="5"/>
+  <polygon points="305,408 296,424 314,424" fill="#D64545"/>
+  <text x="305" y="500" text-anchor="middle" font-size="15" fill="#B03030">Druck auf kleiner Fläche</text>
+  <text x="305" y="520" text-anchor="middle" font-size="15" fill="#B03030">am knöchernen Vorsprung (Hüfte)</text>
+
+  <!-- Matratze rechts -->
+  <rect x="650" y="400" width="490" height="46" rx="8" fill="#8FB8DE" stroke="#4F7FB0"/>
+  <!-- Keilkissen im Rücken -->
+  <polygon points="935,400 1075,400 935,312" fill="#9AD1A8" stroke="#3E8A56" stroke-width="2"/>
+  <text x="985" y="392" text-anchor="middle" font-size="14" fill="#2B6B42">Keilkissen</text>
+  <!-- Körper rechts: Ellipse um 30 Grad geneigt -->
+  <g transform="rotate(-30 880 324)">
+    <ellipse cx="880" cy="324" rx="108" ry="62" fill="#F2C9A0" stroke="#7A6A55" stroke-width="2"/>
+  </g>
+  <text x="880" y="320" text-anchor="middle" font-size="14" fill="#7A4A25">Körper</text>
+  <text x="880" y="338" text-anchor="middle" font-size="14" fill="#7A4A25">(Querschnitt)</text>
+  <!-- Winkelmarkierung zwischen Matratze und Körperachse -->
+  <line x1="752" y1="400" x2="840" y2="349" stroke="#0B1F3A" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M802 400 A50 50 0 0 0 795.3 375" fill="none" stroke="#0B1F3A" stroke-width="2"/>
+  <text x="826" y="392" font-size="16" font-weight="bold" fill="#0B1F3A">30°</text>
+  <!-- Verteilte Pfeile rechts -->
+  <g stroke="#E08A2E" stroke-width="4" fill="#E08A2E">
+    <line x1="835" y1="470" x2="835" y2="414"/><polygon points="835,406 827,420 843,420"/>
+    <line x1="870" y1="470" x2="870" y2="414"/><polygon points="870,406 862,420 878,420"/>
+    <line x1="905" y1="470" x2="905" y2="414"/><polygon points="905,406 897,420 913,420"/>
+  </g>
+  <text x="895" y="500" text-anchor="middle" font-size="15" fill="#B06A1A">Druck verteilt sich auf eine größere Fläche</text>
+  <text x="895" y="520" text-anchor="middle" font-size="15" fill="#B06A1A">Rücken wird durch das Kissen gestützt</text>
+
+  <!-- Fußnote -->
+  <g font-size="14" fill="#44546A">
+    <text x="30" y="580">Vereinfachte Schemazeichnung, nicht maßstabsgetreu (eigene Darstellung).</text>
+    <text x="30" y="604">Empfehlung 5.8: schwache positive Empfehlung, Evidenzstärke C (EPUAP, NPIAP und PPPIA, 2019, deutsche Kurzfassung, S. 22).</text>
+    <text x="30" y="628">Wie oft gelagert wird, richtet sich nach der Person. Einen festen Zeitabstand nennen die gelesenen Auszüge nicht.</text>
+    <text x="30" y="652">Bei jeder Positionsänderung ist eine optimale Entlastung aller knöchernen Vorsprünge das Ziel (Empfehlung 5.5, Aussage zu guter Praxis, S. 22).</text>
+    <text x="30" y="676">pflegelaborblog.de · Information und Bildung, keine individuelle medizinische Beratung</text>
+  </g>
+</svg>
