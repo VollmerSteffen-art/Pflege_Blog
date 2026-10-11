@@ -148,7 +148,7 @@ a.post-card:hover, .vb-card:hover, .tile:hover {
 .card h3, .vb-card h3 { color: var(--pl-navy); }
 .post-card .thumb { background: var(--pl-navy); }
 .tag { background: var(--pl-turquoise-soft); color: var(--pl-turquoise); font-weight: 800; letter-spacing: 0.08em; }
-.tag.grey { background: var(--pl-green-soft); color: var(--pl-green); }
+.tag.grey { background: #E8EEF4; color: var(--pl-text-2); }
 .chip { border-color: var(--pl-line); color: var(--pl-navy); min-height: 44px; transition: background 0.4s var(--ease), color 0.4s var(--ease); }
 .chip:hover { background: var(--pl-turquoise-soft); }
 .chip[aria-pressed="true"] { background: var(--pl-navy); border-color: var(--pl-navy); color: #fff; }
