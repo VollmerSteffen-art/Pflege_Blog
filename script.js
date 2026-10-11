@@ -22,6 +22,11 @@
     var open = menu.classList.toggle('open');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); btn.focus();
+    }
+  });
 })();
 
 // Rubriken filtern im Blog

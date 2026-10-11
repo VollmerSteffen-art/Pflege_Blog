@@ -226,3 +226,9 @@ footer a:hover { color: var(--pl-turquoise-bright); }
 .pl-consent button { font: inherit; font-weight: 700; padding: 11px 20px; border-radius: 999px; border: 1.5px solid var(--pl-turquoise-bright); background: transparent; color: #fff; cursor: pointer; }
 .pl-consent button[data-v="yes"] { background: var(--pl-turquoise-bright); color: var(--pl-navy); }
 .pl-consent button:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+
+/* Barrierefreiheit: Sprunglink, Fokus auf Hauptbereich */
+.skip { position: absolute; left: 12px; top: -80px; z-index: 100; background: var(--pl-navy); color: #fff; padding: 12px 20px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+.skip:focus { top: 12px; outline: 3px solid var(--pl-turquoise-bright); outline-offset: 2px; }
+main:focus { outline: none; }
+.card h2 + p { margin-top: 0; }
