@@ -203,3 +203,7 @@ Nicht bei jedem neuen Artikel erneut nach der gewünschten Struktur fragen.
 * Texte in Steffens Stil, ohne Floskeln, ohne Gedankenstriche, ohne Emojis, ohne unnötigen Fettdruck. Deutsche Rechtschreibung und Kommasetzung nach Duden.
 * Kein Bewohner, Mitarbeiter oder Schuldatenbezug und keine Angabe des Arbeitsorts.
 * Statische Seite ohne Build, veröffentlicht über GitHub Pages (Branch main, Hauptordner). Schrift Arial, Überschriften grün, Text schwarz, Nebeninfos grau (siehe style.css).
+
+## 11. Startseite zeigt immer die neuesten Beiträge
+
+Bei jedem neuen Beitrag den Abschnitt "Aktuelle Beiträge" in index.html aktualisieren: Es erscheinen immer die drei zuletzt geschriebenen Beiträge, der neueste zuerst. Gleichzeitig Karte in blog.html, JSON LD Eintrag dort und Eintrag in sitemap.xml ergänzen.
