@@ -1,7 +1,7 @@
 /* Google Analytics 4 erst nach Einwilligung. Solange GA_ID leer ist, passiert nichts: kein Banner, kein Laden, keine Verbindung zu Google.
-   Aktivieren: Messungs-ID (G-XXXXXXXXXX) unten eintragen UND vorher die Datenschutzerklärung ergänzen (siehe ANALYTICS_EINRICHTEN.md). */
+   Aktiv mit der Messungs-ID unten. Ohne Einwilligung wird nichts von Google geladen. Datenschutzerklärung Abschnitt 4 beschreibt das. */
 (function () {
-  var GA_ID = "";
+  var GA_ID = "G-VK7RFRLNCJ";
   if (!GA_ID) return;
   var KEY = "pl-analytics-consent";
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
