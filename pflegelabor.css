@@ -232,3 +232,6 @@ footer a:hover { color: var(--pl-turquoise-bright); }
 .skip:focus { top: 12px; outline: 3px solid var(--pl-turquoise-bright); outline-offset: 2px; }
 main:focus { outline: none; }
 .card h2 + p { margin-top: 0; }
+
+/* Mindestgröße der Fußlinks (WCAG 2.2, Zielgröße) */
+footer p a { display: inline-block; min-height: 24px; padding: 3px 2px; }
