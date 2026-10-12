@@ -311,3 +311,4 @@ html { scroll-behavior: smooth; }
 .studio img { flex: none; width: 150px; height: 150px; object-fit: cover; object-position: 50% 55%; border-radius: 50%; border: 3px solid rgba(255, 255, 255, 0.85); box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3); }
 .studio figcaption { margin: 0; font-size: 0.95rem; color: rgba(255, 255, 255, 0.78); }
 .footer-ecke { display: block; width: 96px; height: 96px; object-fit: cover; object-position: 50% 55%; margin: 0 auto 22px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.85); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); }
+.plattformen { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 18px; }
