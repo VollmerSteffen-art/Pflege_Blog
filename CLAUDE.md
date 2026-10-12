@@ -207,3 +207,13 @@ Nicht bei jedem neuen Artikel erneut nach der gewünschten Struktur fragen.
 ## 11. Startseite zeigt immer die neuesten Beiträge
 
 Bei jedem neuen Beitrag den Abschnitt "Aktuelle Beiträge" in index.html aktualisieren: Es erscheinen immer die drei zuletzt geschriebenen Beiträge, der neueste zuerst. Gleichzeitig Karte in blog.html, JSON LD Eintrag dort und Eintrag in sitemap.xml ergänzen.
+
+## 12. Neue Podcast Folgen: Plattform Buttons
+
+Wenn Steffen eine neue Podcast Folge hochlädt oder ankündigt, baue auf podcast.html bei dieser Folge die Buttons zu den Podcast Plattformen ein (Apple Podcasts, Deezer, Spotify, sobald Links vorliegen). Aufbau wie bei Folge 1: ein Block mit der Klasse "plattformen" mit je einem Link der Klasse "btn ghost" und der Beschriftung "Auf Apple Podcasts hören", "Auf Deezer hören", "Auf Spotify hören". Jeder Button verlinkt direkt auf die Folge, nicht auf die Startseite des Podcasts.
+
+* Steffen schickt die Links zur Folge. Fehlt ein Link, einmal kurz danach fragen und die anderen Buttons trotzdem einbauen.
+* Jeden Link vor dem Einbau prüfen: Er muss zum Podcast Pflegelaborblog und zur richtigen Folge führen.
+* Den Hinweissatz zu weiteren Plattformen anpassen, sobald alle Plattformen eingebaut sind.
+* Anschließend am Desktop und Handy prüfen und auf main veröffentlichen.
+
