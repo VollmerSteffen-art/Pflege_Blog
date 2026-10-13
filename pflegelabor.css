@@ -312,3 +312,8 @@ html { scroll-behavior: smooth; }
 .studio figcaption { margin: 0; font-size: 0.95rem; color: rgba(255, 255, 255, 0.78); }
 .footer-ecke { display: block; width: 96px; height: 96px; object-fit: cover; object-position: 50% 55%; margin: 0 auto 22px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.85); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); }
 .plattformen { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 18px; }
+
+/* Kooperation: Platzhalter für Logos und Anzeigen von Pflegeheimen */
+.partner-grid { display: grid; gap: 22px; grid-template-columns: repeat(3, 1fr); margin-top: 32px; }
+.partner-slot { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 170px; padding: 24px; background: #DCEBFA; border: 2px dashed #8DB7E3; border-radius: 22px; color: var(--pl-navy); font-weight: 700; line-height: 1.4; }
+@media (max-width: 760px) { .partner-grid { grid-template-columns: 1fr; } .partner-slot { min-height: 130px; } }
