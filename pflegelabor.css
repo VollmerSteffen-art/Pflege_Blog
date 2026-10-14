@@ -325,3 +325,6 @@ html { scroll-behavior: smooth; }
 .podcast-grid .card h2 { font-size: 1.15rem; }
 .podcast-grid .card p, .podcast-grid .card li { font-size: 0.95rem; }
 @media (max-width: 820px) { .podcast-grid { grid-template-columns: 1fr; } .podcast-grid .cover { max-width: 340px; } }
+
+/* Lange Links im Quellenverzeichnis umbrechen, damit mobil nichts überläuft */
+.quellen li, .quellen a { overflow-wrap: anywhere; }
