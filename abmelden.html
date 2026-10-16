@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsletter abmelden · Pflegelaborblog</title>
+<meta name="description" content="Vom Newsletter des Pflegelaborblog abmelden.">
+<link rel="icon" href="favicon.ico" sizes="48x48"><link rel="icon" href="assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="icon" href="assets/logo.svg?v=2" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><meta name="theme-color" content="#0B1F3A"><meta name="robots" content="noindex,nofollow"><meta property="og:type" content="website"><meta property="og:locale" content="de_DE"><meta property="og:site_name" content="Pflegelaborblog"><meta property="og:title" content="Newsletter abmelden · Pflegelaborblog"><meta property="og:description" content="Newsletter abmelden">
+<link rel="canonical" href="https://pflegelaborblog.de/abmelden.html"><meta property="og:url" content="https://pflegelaborblog.de/abmelden.html">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="modern.css">
+<link rel="preload" href="assets/fonts/pjs-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="pflegelabor.css?v=17">
+<link rel="stylesheet" href="newsletter.css">
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg?v=2" alt="" width="34" height="34">Pflegelaborblog</a>
+    <button class="toggle" aria-expanded="false" aria-label="Menü öffnen">Menü</button>
+    <ul class="menu"><li><a href="index.html">Startseite</a></li><li><a href="ueber-mich.html">Über mich</a></li><li><a href="blog.html">Blog</a></li><li><a href="podcast.html">Podcast</a></li><li><a href="videoblog.html">Video</a></li><li><a href="team.html">Team</a></li><li><a href="mitmachen.html">Mitmachen</a></li><li><a href="kooperation.html">Kooperation</a></li></ul>
+  </div>
+</header>
+<main id="inhalt" tabindex="-1">
+<div class="hero small"><div class="wrap"><h1>Newsletter abmelden</h1></div></div>
+
+<section>
+  <div class="narrow article" id="abmelden">
+
+    <div id="schritt1" hidden>
+      <h2>Möchtest du dich abmelden?</h2>
+      <p>Dann bekommst du keinen Newsletter mehr vom Pflegelaborblog.</p>
+      <p><button class="btn" id="weiter" type="button">Ja, abmelden</button>
+         <a class="btn ghost" href="index.html">Nein, zurück zur Seite</a></p>
+    </div>
+
+    <div id="schritt2" hidden>
+      <h2>Bist du sicher?</h2>
+      <p>Mit diesem Klick bestätigst du die Abmeldung. Ich trage dich dann von Hand aus dem Verteiler aus. Das kann ein paar Tage dauern, bis dahin kann noch ein Newsletter bei dir ankommen.</p>
+      <p><button class="btn" id="bestaetigen" type="button">Abmeldung bestätigen</button>
+         <a class="btn ghost" href="index.html">Abbrechen</a></p>
+      <p id="fehler" role="alert" hidden>Das hat leider nicht geklappt. Schreib mir bitte kurz eine Mail an <a href="mailto:vollmer.steffen@icloud.com?subject=Newsletter%20abmelden">vollmer.steffen@icloud.com</a>.</p>
+    </div>
+
+    <div id="schritt3" hidden>
+      <h2>Abmeldung ist angekommen</h2>
+      <p>Danke dir. Ich trage dich aus dem Verteiler aus. Deine Mailadresse wurde dabei nicht über diese Seite übertragen.</p>
+      <p><a class="btn ghost" href="index.html">Zur Startseite</a></p>
+    </div>
+
+    <div id="ungueltig" hidden>
+      <h2>Dieser Link ist nicht vollständig</h2>
+      <p>Bitte öffne die Abmeldung über den Link am Ende des Newsletters. Oder schreib mir kurz eine Mail an <a href="mailto:vollmer.steffen@icloud.com?subject=Newsletter%20abmelden">vollmer.steffen@icloud.com</a>.</p>
+    </div>
+
+    <noscript><p>Für die Abmeldung brauchst du JavaScript. Ohne schreib mir bitte eine Mail an <a href="mailto:vollmer.steffen@icloud.com?subject=Newsletter%20abmelden">vollmer.steffen@icloud.com</a>.</p></noscript>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <img class="footer-ecke" src="assets/podcast-ecke-mikrofon-sessel-320.webp" alt="" width="96" height="96" loading="lazy" decoding="async">
+    <p><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="barrierefreiheit.html">Barrierefreiheit</a></p>
+    <p>Pflegelaborblog · Ausbildung zum Pflegefachmann · Keine Bewohnerdaten, keine Mitarbeiterdaten, keine Angaben zu Arbeitsplatz oder Schule. Privates Ehrenamt in der Freizeit, ohne Einnahmen.</p>
+  </div>
+</footer>
+<script src="analytics.js" defer></script>
+<script src="script.js"></script>
+<script src="newsletter.js"></script>
+<script>
+(function () {
+  // Hier den öffentlichen Access Key von Web3Forms eintragen (der Key ist für den Browser gedacht).
+  var ACCESS_KEY = "0f814486-0a5f-4b53-814b-34aa48d78063";
+
+  var code = new URLSearchParams(location.search).get("c") || "";
+  var ok = /^[A-Za-z0-9_-]{16,64}$/.test(code);
+  var $ = function (id) { return document.getElementById(id); };
+  function zeige(id) {
+    ["schritt1", "schritt2", "schritt3", "ungueltig"].forEach(function (s) { $(s).hidden = (s !== id); });
+  }
+  if (!ok) { zeige("ungueltig"); return; }
+  zeige("schritt1");
+  $("weiter").addEventListener("click", function () { zeige("schritt2"); });
+  $("bestaetigen").addEventListener("click", function () {
+    var b = $("bestaetigen"); b.disabled = true; $("fehler").hidden = true;
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({
+        access_key: ACCESS_KEY,
+        subject: "Newsletter Abmeldung",
+        from_name: "Pflegelaborblog Abmeldung",
+        message: "Abmelde-Code: " + code
+      })
+    }).then(function (r) { return r.json(); }).then(function (j) {
+      if (j && j.success) { zeige("schritt3"); } else { throw new Error("fail"); }
+    }).catch(function () { b.disabled = false; $("fehler").hidden = false; });
+  });
+})();
+</script>
+</body>
+</html>
