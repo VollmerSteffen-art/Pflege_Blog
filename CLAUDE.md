@@ -93,15 +93,11 @@ SEO Titel und Meta Description müssen individuell, präzise und attraktiv formu
 
 ### C. Quellenangaben im Fließtext
 
-Verwende fortlaufende nummerische Quellenverweise in eckigen Klammern, zum Beispiel [1], [2] und [3]. Das gilt für Blogartikel auf der Website. Für Abgaben an Steffens Pflegeschule gilt dagegen das Format der Schule, und für sonstige wissenschaftliche Texte gilt APA 7.
+Alle wissenschaftlichen Texte und Fachartikel auf dem Pflegelaborblog werden nach APA 7 belegt (Beschluss von Steffen am 20.10.2026). Im Text stehen Autor oder Institution, Jahr und bei bestimmten Stellen, Zahlen, Leitlinienempfehlungen und wörtlichen Zitaten die Seite, zum Beispiel (Höglinger et al., 2023, S. 24). Zwei Autoren: (A & B, Jahr), ab drei Autoren: (A et al., Jahr). Institutionen werden beim ersten Mal ausgeschrieben mit Kürzel, danach nur das Kürzel. Ohne Jahr: (o. J.). Seitenbereiche werden ohne Strich geschrieben, zum Beispiel "S. 7 und 8". Zwischen "S." und der Zahl steht ein geschütztes Leerzeichen (&nbsp;).
 
-Ordne jedem fachlich belegpflichtigen Abschnitt die tatsächlich passende Quelle zu.
+Das Quellenverzeichnis steht am Ende, alphabetisch sortiert, nach APA 7, ohne Nummern, mit Einzug ab der zweiten Zeile. Es enthält Autor beziehungsweise herausgebende Institution, Jahr, Titel, bei Leitlinien Stufe, Version und AWMF-Registernummer, gegebenenfalls Zeitschrift, DOI oder funktionierenden Original Link und das Abrufdatum. Abgaben an Steffens Pflegeschule folgen weiterhin dem Format der Schule.
 
-Beispiel: Eine systematische Einschätzung des individuellen Risikos ist Voraussetzung für geeignete präventive Maßnahmen [1].
-
-Im Quellenverzeichnis steht dann: [1] Vollständige bibliografische Angabe mit Autor beziehungsweise herausgebender Institution, Titel, Jahr, gegebenenfalls Zeitschrift, DOI oder funktionierendem Original Link.
-
-Die Nummerierung muss eindeutig sein. Eine mehrfach verwendete Quelle behält dieselbe Nummer. Quellenangaben nie ungeprüft aus fremden Texten übernehmen. Nach Möglichkeit die Originalpublikation oder den offiziellen Leitlinientext verlinken.
+Ordne jedem fachlich belegpflichtigen Abschnitt die tatsächlich passende Quelle zu. Quellenangaben nie ungeprüft aus fremden Texten übernehmen. Nach Möglichkeit die Originalpublikation oder den offiziellen Leitlinientext verlinken. Ältere Beiträge mit nummerischen Verweisen wie [1, S. 11] werden nur auf ausdrücklichen Wunsch auf APA 7 umgestellt.
 
 Auf Wunsch zusätzlich eine Quellen und Faktentabelle erstellen mit konkreter Aussage, zugehöriger Quelle, Fundstelle beziehungsweise Seite, Art der Evidenz, Aktualität und fachlicher Einschränkung.
 
