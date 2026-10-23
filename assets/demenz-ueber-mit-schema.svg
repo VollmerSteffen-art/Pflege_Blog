@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="'Plus Jakarta Sans',system-ui,sans-serif">
+<title>Zwei Arten von Sprache: über Menschen mit Demenz und mit Menschen mit Demenz</title>
+<rect width="1200" height="700" fill="#F4F8FB"/>
+<g>
+<rect x="40" y="40" width="530" height="470" rx="32" fill="#fff" stroke="#D8E2EC" stroke-width="2"/>
+<rect x="40" y="40" width="530" height="96" rx="32" fill="#0B1F3A"/>
+<rect x="40" y="100" width="530" height="36" fill="#0B1F3A"/>
+<text x="76" y="82" font-size="20" font-weight="600" fill="#2DD4C8" letter-spacing="3">TEIL 1</text>
+<text x="76" y="118" font-size="34" font-weight="800" fill="#fff">Über sie sprechen</text>
+<text x="76" y="182" font-size="22" fill="#41546B">Wir reden miteinander über den Menschen.</text>
+<text x="76" y="236" font-size="24" font-weight="800" fill="#0B1F3A">Worum es geht</text>
+<text x="76" y="272" font-size="22" fill="#0B1F3A">Wortwahl und Bilder im Kopf</text>
+<text x="76" y="306" font-size="22" fill="#0B1F3A">Begriffe, die Würde wahren</text>
+<text x="76" y="340" font-size="22" fill="#0B1F3A">Fähigkeiten statt Verluste nennen</text>
+<text x="76" y="394" font-size="24" font-weight="800" fill="#0B1F3A">Wer hört zu?</text>
+<text x="76" y="430" font-size="22" fill="#0B1F3A">Team, Angehörige, Besuch, Medien</text>
+<rect x="76" y="458" width="458" height="36" rx="18" fill="#E0F6F4"/>
+<text x="96" y="483" font-size="19" font-weight="600" fill="#0A7C84">Quelle: Sprachleitfaden „Demenz“ (DADO, 2020)</text>
+</g>
+<g>
+<rect x="630" y="40" width="530" height="470" rx="32" fill="#fff" stroke="#D8E2EC" stroke-width="2"/>
+<rect x="630" y="40" width="530" height="96" rx="32" fill="#0A7C84"/>
+<rect x="630" y="100" width="530" height="36" fill="#0A7C84"/>
+<text x="666" y="82" font-size="20" font-weight="600" fill="#E0F6F4" letter-spacing="3">TEIL 2</text>
+<text x="666" y="118" font-size="34" font-weight="800" fill="#fff">Mit ihnen sprechen</text>
+<text x="666" y="182" font-size="22" fill="#41546B">Wir reden mit dem Menschen.</text>
+<text x="666" y="236" font-size="24" font-weight="800" fill="#0B1F3A">Worum es geht</text>
+<text x="666" y="272" font-size="22" fill="#0B1F3A">Ton, Tempo, Blickkontakt</text>
+<text x="666" y="306" font-size="22" fill="#0B1F3A">Kurze Sätze, klare Fragen</text>
+<text x="666" y="340" font-size="22" fill="#0B1F3A">Gefühle hören, nicht nur Worte</text>
+<text x="666" y="394" font-size="24" font-weight="800" fill="#0B1F3A">Wer hört zu?</text>
+<text x="666" y="430" font-size="22" fill="#0B1F3A">Der Mensch mit Demenz selbst</text>
+<rect x="666" y="458" width="458" height="36" rx="18" fill="#E0F6F4"/>
+<text x="686" y="483" font-size="19" font-weight="600" fill="#0A7C84">Quelle: Arbeitshilfe #8 (Henrichs et al., 2020)</text>
+</g>
+<rect x="40" y="550" width="1120" height="110" rx="32" fill="#0B1F3A"/>
+<text x="600" y="598" text-anchor="middle" font-size="22" font-weight="600" fill="#2DD4C8" letter-spacing="3">DAS GEMEINSAME</text>
+<text x="600" y="638" text-anchor="middle" font-size="30" font-weight="800" fill="#fff">Wertschätzung und Respekt, in jedem Satz</text>
+</svg>
