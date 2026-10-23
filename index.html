@@ -15,6 +15,25 @@
 <link rel="preload" as="image" href="assets/fotos/hero-start.webp" fetchpriority="high">
 <link rel="stylesheet" href="pflegelabor.css?v=17">
 <link rel="stylesheet" href="newsletter.css">
+<style>
+.dl-banner{background:linear-gradient(135deg,#0B1F3A,#12305A);border-radius:36px;color:#fff;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(26px,4.5vw,52px);position:relative;overflow:hidden;box-shadow:0 0 0 6px rgba(11,31,58,.06)}
+.dl-banner::before{content:"";position:absolute;width:420px;height:420px;right:-120px;top:-160px;background:radial-gradient(circle,rgba(45,212,200,.34),transparent 68%)}
+.dl-banner::after{content:"";position:absolute;width:320px;height:320px;left:-110px;bottom:-150px;background:radial-gradient(circle,rgba(95,211,154,.24),transparent 68%)}
+.dl-banner>*{position:relative;z-index:1}
+.dl-banner .dl-eyebrow{display:inline-block;background:rgba(45,212,200,.14);border:1px solid rgba(45,212,200,.45);color:#BDF3EE;font-weight:800;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;border-radius:999px;padding:6px 14px;margin-bottom:14px}
+.dl-banner h2{color:#fff;margin:0 0 .35em;font-size:clamp(1.7rem,3.6vw,2.5rem)}
+.dl-banner h2 em{color:var(--pl-turquoise-bright);font-style:normal}
+.dl-banner p{color:rgba(255,255,255,.88);margin:0 0 1.2em;max-width:34em}
+.dl-banner .btn{background:var(--pl-turquoise-bright);border-color:var(--pl-turquoise-bright);color:var(--pl-navy);font-size:1.05rem}
+.dl-banner .btn:hover{background:#fff;border-color:#fff}
+.dl-banner .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.dl-banner .btn.ghost:hover{background:rgba(255,255,255,.14);border-color:#fff;color:#fff}
+.dl-banner-bild{display:flex;justify-content:center}
+.dl-banner-bild img{width:170px;height:auto;border-radius:8px;box-shadow:0 18px 40px rgba(0,0,0,.45);transform:rotate(4deg)}
+.dl-banner-bild img+img{margin-left:-70px;transform:rotate(-5deg);margin-top:14px}
+.dl-banner-aktion{display:flex;flex-wrap:wrap;gap:12px}
+@media(max-width:760px){.dl-banner{grid-template-columns:1fr}.dl-banner-bild{order:-1}.dl-banner-bild img{width:130px}.dl-banner-bild img+img{margin-left:-50px}}
+</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Blog", "name": "Pflegelaborblog", "description": "Blog zur Ausbildung zum Pflegefachmann: Alltag, digitales Lernen und wissenschaftliches Arbeiten.", "inLanguage": "de", "url": "https://pflegelaborblog.de/", "author": {"@type": "Person", "name": "Steffen", "jobTitle": "Auszubildender Pflegefachmann"}, "publisher": {"@type": "Person", "name": "Steffen"}}</script>
 </head>
 <body>
@@ -36,6 +55,7 @@
     <a class="btn" href="beitrag-warum-pflegefachmann.html">Meine Geschichte lesen</a>
     <a class="btn ghost" href="blog.html">Zum Blog</a>
     <a class="btn ghost" href="podcast.html">Zum Podcast</a>
+    <a class="btn" href="downloads.html">Downloads</a>
   </div>
 </div>
 
@@ -93,6 +113,26 @@
       <a class="card post-card reveal delay2" href="beitrag-parkinson-krankheit.html"><img class="thumb" src="assets/cover-parkinson-krankheit-640.webp" alt="" width="1200" height="630" loading="lazy"><span class="tag">Wissenschaft</span><h3>Parkinson-Krankheit: Wie sie entsteht, wie sie behandelt wird und wie Menschen damit leben</h3><p>Was die Parkinson-Krankheit ist, wie sie entsteht, wie sie behandelt wird und wie Menschen damit leben, nach der S2k-Leitlinie.</p><p class="meta">20. Oktober 2026 · 11 Minuten Lesezeit</p></a>
     </div>
     <p class="more reveal"><a class="btn ghost" href="blog.html">Alle Beiträge ansehen</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="dl-banner reveal">
+      <div>
+        <span class="dl-eyebrow">Neu: Downloads</span>
+        <h2>Fachwissen <em>zum Mitnehmen</em></h2>
+        <p>Kompakte PDFs zum Ausdrucken, kostenlos und mit Quellen. Das erste Paket: 15 Tipps für die Kommunikation bei Demenz, mit und über Menschen mit Demenz.</p>
+        <div class="dl-banner-aktion">
+          <a class="btn" href="downloads.html">Zu den Downloads</a>
+          <a class="btn ghost" href="downloads/15-tipps-kommunikation-demenz.pdf" download>Direkt die 15 Tipps laden</a>
+        </div>
+      </div>
+      <div class="dl-banner-bild" aria-hidden="true">
+        <img src="assets/download-demenz-tipps.webp" alt="" width="640" height="905" loading="lazy">
+        <img src="assets/download-demenz-cover.webp" alt="" width="640" height="905" loading="lazy">
+      </div>
+    </div>
   </div>
 </section>
 
