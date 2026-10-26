@@ -12,8 +12,8 @@
           '<button type="submit" class="nl-btn">Kostenlos anmelden</button>' +
         '</div>' +
         '<input type="checkbox" name="botcheck" class="nl-bot" tabindex="-1" autocomplete="off" aria-hidden="true">' +
-        '<label class="nl-check"><input type="checkbox" name="einwilligung" required> ' +
-          'Ich möchte den wöchentlichen Newsletter per Mail bekommen. Die Hinweise in der <a href="datenschutz.html#newsletter">Datenschutzerklärung</a> habe ich gelesen.</label>' +
+        '<label class="nl-check"><input type="checkbox" name="einwilligung" required> <span>' +
+          'Ich möchte den wöchentlichen Newsletter per Mail bekommen. Die Hinweise in der <a href="datenschutz.html#newsletter">Datenschutzerklärung</a> habe ich gelesen.</span></label>' +
         '<p class="nl-msg" role="status" aria-live="polite" hidden></p>' +
       '</form>';
   }
@@ -68,6 +68,10 @@
     wrap.insertBefore(box, wrap.firstChild);
     verdrahten(box.querySelector('form'));
   }
+
+  // 1b. Mailfeld mitten auf der Startseite (Abschnitt "Der Newsletter")
+  var inl = document.getElementById('nl-inline');
+  if (inl) { inl.innerHTML = formular('nl-inline'); verdrahten(inl.querySelector('form')); }
 
   // 2. Popup nur auf der Startseite, ein Mal pro Seitenaufruf
   var p = location.pathname;
