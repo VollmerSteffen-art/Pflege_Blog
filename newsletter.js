@@ -13,14 +13,15 @@
         '</div>' +
         '<input type="checkbox" name="botcheck" class="nl-bot" tabindex="-1" autocomplete="off" aria-hidden="true">' +
         '<label class="nl-check"><input type="checkbox" name="einwilligung" required> <span>' +
-          'Ich möchte den wöchentlichen Newsletter per Mail bekommen. Die Hinweise in der <a href="datenschutz.html#newsletter">Datenschutzerklärung</a> habe ich gelesen.</span></label>' +
+          'Ich möchte den wöchentlichen Newsletter per Mail bekommen, auch mit der kostenlosen Vorstellung von Firmen und Einrichtungen am Ende. Die Hinweise in der <a href="datenschutz.html#newsletter">Datenschutzerklärung</a> habe ich gelesen.</span></label>' +
         '<p class="nl-msg" role="status" aria-live="polite" hidden></p>' +
       '</form>';
   }
 
   function text() {
     return '<p class="nl-text">Einmal pro Woche eine Mail mit dem Neuesten aus dem Pflegelaborblog. ' +
-           'Kostenlos, ohne Werbung. Deine Mailadresse gebe ich nicht weiter und nutze sie für nichts anderes als den Newsletter. ' +
+           'Kostenlos. Ganz unten stellen sich manchmal Firmen und Einrichtungen aus der Pflege vor. Dafür fließt kein Geld, und sie sehen weder deine Adresse noch irgendwelche Daten von dir. ' +
+           'Deine Mailadresse gebe ich an niemanden weiter und nutze sie für nichts anderes als den Newsletter. ' +
            'Abmelden kannst du dich jederzeit mit einem Klick in jeder Mail.</p>';
   }
 
@@ -43,12 +44,12 @@
           subject: 'Newsletter Anmeldung',
           from_name: 'Pflegelaborblog Anmeldung',
           email: mail,
-          message: 'Neue Newsletter-Anmeldung: ' + mail + '. Einwilligung per Haken auf der Seite ' + location.pathname + ' am ' + new Date().toLocaleString('de-DE') + '.'
+          message: 'Neue Newsletter-Anmeldung: ' + mail + '. Einwilligung per Haken auf der Seite ' + location.pathname + ' am ' + new Date().toLocaleString('de-DE') + '. Einwilligungstext Stand 27.10.2026, mit Hinweis auf die Vorstellung von Firmen und Einrichtungen am Ende. Nächster Schritt: Bestätigungsmail (Double-Opt-In).'
         })
       }).then(function (r) { return r.json(); }).then(function (j) {
         if (j && j.success) {
           form.reset();
-          zeig('Danke, du bist eingetragen. Die erste Mail kommt mit dem nächsten Newsletter.', false);
+          zeig('Danke. Ich schicke dir eine Mail mit einem Bestätigungslink. Das kann etwas dauern, weil ich sie selbst verschicke. Erst nach dem Klick auf den Link bekommst du den Newsletter. Schau bitte auch im Spam-Ordner nach.', false);
         } else { throw new Error('fail'); }
       }).catch(function () {
         btn.disabled = false;
