@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" font-family="'Plus Jakarta Sans',system-ui,sans-serif">
+<title>Schema des Gehirns: Hippocampus, Striatum, Kleinhirn und Ausweichnetzwerke</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1F3A"/><stop offset="1" stop-color="#12305A"/></linearGradient><linearGradient id="hirn" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#3B8FE0"/><stop offset="0.55" stop-color="#1F5FAE"/><stop offset="1" stop-color="#0E3466"/></linearGradient><linearGradient id="klein" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A74C4"/><stop offset="1" stop-color="#123C73"/></linearGradient><radialGradient id="schatten" cx="0.2" cy="0.15" r="1"><stop offset="0" stop-color="#0B1F3A" stop-opacity="0"/><stop offset="1" stop-color="#0B1F3A" stop-opacity="0.55"/></radialGradient><filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter><clipPath id="cerebrum"><path d="M110.0,340.0 C109.2,323.3 110.8,300.8 120.0,280.0 C129.2,259.2 145.0,234.2 165.0,215.0 C185.0,195.8 210.8,178.8 240.0,165.0 C269.2,151.2 305.0,139.8 340.0,132.0 C375.0,124.2 413.3,120.3 450.0,118.0 C486.7,115.7 525.0,115.2 560.0,118.0 C595.0,120.8 629.2,126.3 660.0,135.0 C690.8,143.7 720.8,155.0 745.0,170.0 C769.2,185.0 789.5,204.2 805.0,225.0 C820.5,245.8 831.8,272.5 838.0,295.0 C844.2,317.5 844.2,339.2 842.0,360.0 C839.8,380.8 834.5,404.2 825.0,420.0 C815.5,435.8 805.8,448.0 785.0,455.0 C764.2,462.0 729.2,459.5 700.0,462.0 C670.8,464.5 640.0,463.7 610.0,470.0 C580.0,476.3 551.7,491.7 520.0,500.0 C488.3,508.3 451.7,517.5 420.0,520.0 C388.3,522.5 354.2,519.2 330.0,515.0 C305.8,510.8 288.3,505.0 275.0,495.0 C261.7,485.0 257.2,466.7 250.0,455.0 C242.8,443.3 245.3,432.5 232.0,425.0 C218.7,417.5 187.8,417.5 170.0,410.0 C152.2,402.5 135.0,391.7 125.0,380.0 C115.0,368.3 110.8,356.7 110.0,340.0 Z"/></clipPath></defs>
+<rect width="1200" height="860" fill="url(#bg)"/>
+<text x="48" y="58" font-size="20" font-weight="600" fill="#2DD4C8" letter-spacing="3">WAS IM GEHIRN PASSIERT</text>
+<text x="48" y="94" font-size="30" font-weight="800" fill="#fff">Routine trägt, die innere Karte fehlt</text>
+<g transform="translate(20,105) scale(0.82)">
+<path d="M110.0,340.0 C109.2,323.3 110.8,300.8 120.0,280.0 C129.2,259.2 145.0,234.2 165.0,215.0 C185.0,195.8 210.8,178.8 240.0,165.0 C269.2,151.2 305.0,139.8 340.0,132.0 C375.0,124.2 413.3,120.3 450.0,118.0 C486.7,115.7 525.0,115.2 560.0,118.0 C595.0,120.8 629.2,126.3 660.0,135.0 C690.8,143.7 720.8,155.0 745.0,170.0 C769.2,185.0 789.5,204.2 805.0,225.0 C820.5,245.8 831.8,272.5 838.0,295.0 C844.2,317.5 844.2,339.2 842.0,360.0 C839.8,380.8 834.5,404.2 825.0,420.0 C815.5,435.8 805.8,448.0 785.0,455.0 C764.2,462.0 729.2,459.5 700.0,462.0 C670.8,464.5 640.0,463.7 610.0,470.0 C580.0,476.3 551.7,491.7 520.0,500.0 C488.3,508.3 451.7,517.5 420.0,520.0 C388.3,522.5 354.2,519.2 330.0,515.0 C305.8,510.8 288.3,505.0 275.0,495.0 C261.7,485.0 257.2,466.7 250.0,455.0 C242.8,443.3 245.3,432.5 232.0,425.0 C218.7,417.5 187.8,417.5 170.0,410.0 C152.2,402.5 135.0,391.7 125.0,380.0 C115.0,368.3 110.8,356.7 110.0,340.0 Z" fill="#3B8FE0" opacity="0.45" filter="url(#glow)"/>
+<path d="M545.0,455.0 C550.0,437.0 585.8,441.2 600.0,452.0 C614.2,462.8 623.3,488.7 630.0,520.0 C636.7,551.3 647.5,618.3 640.0,640.0 C632.5,661.7 596.7,663.3 585.0,650.0 C573.3,636.7 576.7,592.5 570.0,560.0 C563.3,527.5 540.0,473.0 545.0,455.0 Z" fill="#123C73"/>
+<path d="M640.0,490.0 C650.0,483.0 676.7,479.7 700.0,478.0 C723.3,476.3 756.7,477.2 780.0,480.0 C803.3,482.8 825.8,487.5 840.0,495.0 C854.2,502.5 865.0,514.2 865.0,525.0 C865.0,535.8 854.2,550.8 840.0,560.0 C825.8,569.2 801.7,577.0 780.0,580.0 C758.3,583.0 730.0,582.2 710.0,578.0 C690.0,573.8 671.7,564.7 660.0,555.0 C648.3,545.3 643.3,530.8 640.0,520.0 C636.7,509.2 630.0,497.0 640.0,490.0 Z" fill="url(#klein)" stroke="#5FD39A" stroke-width="3" stroke-opacity="0.9"/>
+<path d="M676,498 Q750,508 834,498" fill="none" stroke="#8FC2F5" stroke-opacity="0.35" stroke-width="2"/>
+<path d="M668,514 Q750,524 842,514" fill="none" stroke="#8FC2F5" stroke-opacity="0.35" stroke-width="2"/>
+<path d="M660,530 Q750,540 850,530" fill="none" stroke="#8FC2F5" stroke-opacity="0.35" stroke-width="2"/>
+<path d="M668,546 Q750,556 842,546" fill="none" stroke="#8FC2F5" stroke-opacity="0.35" stroke-width="2"/>
+<path d="M676,562 Q750,572 834,562" fill="none" stroke="#8FC2F5" stroke-opacity="0.35" stroke-width="2"/>
+<path d="M110.0,340.0 C109.2,323.3 110.8,300.8 120.0,280.0 C129.2,259.2 145.0,234.2 165.0,215.0 C185.0,195.8 210.8,178.8 240.0,165.0 C269.2,151.2 305.0,139.8 340.0,132.0 C375.0,124.2 413.3,120.3 450.0,118.0 C486.7,115.7 525.0,115.2 560.0,118.0 C595.0,120.8 629.2,126.3 660.0,135.0 C690.8,143.7 720.8,155.0 745.0,170.0 C769.2,185.0 789.5,204.2 805.0,225.0 C820.5,245.8 831.8,272.5 838.0,295.0 C844.2,317.5 844.2,339.2 842.0,360.0 C839.8,380.8 834.5,404.2 825.0,420.0 C815.5,435.8 805.8,448.0 785.0,455.0 C764.2,462.0 729.2,459.5 700.0,462.0 C670.8,464.5 640.0,463.7 610.0,470.0 C580.0,476.3 551.7,491.7 520.0,500.0 C488.3,508.3 451.7,517.5 420.0,520.0 C388.3,522.5 354.2,519.2 330.0,515.0 C305.8,510.8 288.3,505.0 275.0,495.0 C261.7,485.0 257.2,466.7 250.0,455.0 C242.8,443.3 245.3,432.5 232.0,425.0 C218.7,417.5 187.8,417.5 170.0,410.0 C152.2,402.5 135.0,391.7 125.0,380.0 C115.0,368.3 110.8,356.7 110.0,340.0 Z" fill="url(#hirn)" stroke="#9CCBF7" stroke-opacity="0.65" stroke-width="3"/>
+<g clip-path="url(#cerebrum)">
+<path d="M170.0,300.0 C176.7,295.0 196.7,271.7 210.0,270.0 C223.3,268.3 236.7,292.5 250.0,290.0 C263.3,287.5 276.7,258.3 290.0,255.0 C303.3,251.7 323.3,267.5 330.0,270.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M200.0,360.0 C208.3,355.8 235.0,335.8 250.0,335.0 C265.0,334.2 275.0,357.5 290.0,355.0 C305.0,352.5 323.3,323.3 340.0,320.0 C356.7,316.7 381.7,332.5 390.0,335.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M300.0,200.0 C308.3,202.5 333.3,216.7 350.0,215.0 C366.7,213.3 383.3,191.7 400.0,190.0 C416.7,188.3 433.3,208.3 450.0,205.0 C466.7,201.7 491.7,175.8 500.0,170.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M420.0,200.0 C428.3,204.2 453.3,224.2 470.0,225.0 C486.7,225.8 503.3,204.2 520.0,205.0 C536.7,205.8 553.3,230.8 570.0,230.0 C586.7,229.2 611.7,205.0 620.0,200.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M560.0,160.0 C568.3,164.2 595.0,183.3 610.0,185.0 C625.0,186.7 635.0,167.5 650.0,170.0 C665.0,172.5 685.0,196.7 700.0,200.0 C715.0,203.3 733.3,191.7 740.0,190.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M620.0,260.0 C628.3,256.7 655.0,237.5 670.0,240.0 C685.0,242.5 695.0,272.5 710.0,275.0 C725.0,277.5 745.0,252.5 760.0,255.0 C775.0,257.5 793.3,284.2 800.0,290.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M640.0,330.0 C648.3,326.7 675.0,307.5 690.0,310.0 C705.0,312.5 715.0,342.5 730.0,345.0 C745.0,347.5 765.0,322.5 780.0,325.0 C795.0,327.5 813.3,354.2 820.0,360.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M600.0,390.0 C608.3,387.5 635.0,372.5 650.0,375.0 C665.0,377.5 675.0,402.5 690.0,405.0 C705.0,407.5 723.3,387.5 740.0,390.0 C756.7,392.5 781.7,415.0 790.0,420.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M330.0,450.0 C338.3,453.3 363.3,470.0 380.0,470.0 C396.7,470.0 413.3,449.2 430.0,450.0 C446.7,450.8 461.7,474.2 480.0,475.0 C498.3,475.8 530.0,458.3 540.0,455.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M470.0,300.0 C478.3,303.3 503.3,320.0 520.0,320.0 C536.7,320.0 555.0,299.2 570.0,300.0 C585.0,300.8 596.7,325.0 610.0,325.0 C623.3,325.0 643.3,304.2 650.0,300.0 " fill="none" stroke="#BFE0FF" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+<path d="M285.0,432.0 C297.5,428.7 332.5,419.8 360.0,412.0 C387.5,404.2 420.0,395.0 450.0,385.0 C480.0,375.0 515.0,362.8 540.0,352.0 C565.0,341.2 590.0,325.3 600.0,320.0 " fill="none" stroke="#0B1F3A" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round"/>
+<path d="M110.0,340.0 C109.2,323.3 110.8,300.8 120.0,280.0 C129.2,259.2 145.0,234.2 165.0,215.0 C185.0,195.8 210.8,178.8 240.0,165.0 C269.2,151.2 305.0,139.8 340.0,132.0 C375.0,124.2 413.3,120.3 450.0,118.0 C486.7,115.7 525.0,115.2 560.0,118.0 C595.0,120.8 629.2,126.3 660.0,135.0 C690.8,143.7 720.8,155.0 745.0,170.0 C769.2,185.0 789.5,204.2 805.0,225.0 C820.5,245.8 831.8,272.5 838.0,295.0 C844.2,317.5 844.2,339.2 842.0,360.0 C839.8,380.8 834.5,404.2 825.0,420.0 C815.5,435.8 805.8,448.0 785.0,455.0 C764.2,462.0 729.2,459.5 700.0,462.0 C670.8,464.5 640.0,463.7 610.0,470.0 C580.0,476.3 551.7,491.7 520.0,500.0 C488.3,508.3 451.7,517.5 420.0,520.0 C388.3,522.5 354.2,519.2 330.0,515.0 C305.8,510.8 288.3,505.0 275.0,495.0 C261.7,485.0 257.2,466.7 250.0,455.0 C242.8,443.3 245.3,432.5 232.0,425.0 C218.7,417.5 187.8,417.5 170.0,410.0 C152.2,402.5 135.0,391.7 125.0,380.0 C115.0,368.3 110.8,356.7 110.0,340.0 Z" fill="url(#schatten)"/>
+</g>
+<path d="M405.0,285.0 C408.3,271.7 424.2,257.5 440.0,250.0 C455.8,242.5 481.7,238.0 500.0,240.0 C518.3,242.0 540.0,251.2 550.0,262.0 C560.0,272.8 564.2,291.7 560.0,305.0 C555.8,318.3 540.0,334.2 525.0,342.0 C510.0,349.8 487.5,354.0 470.0,352.0 C452.5,350.0 430.8,341.2 420.0,330.0 C409.2,318.8 401.7,298.3 405.0,285.0 Z" fill="#5FD39A" fill-opacity="0.85" stroke="#fff" stroke-opacity="0.8" stroke-width="2.5"/>
+<path d="M335.0,462.0 C345.8,463.7 377.5,470.3 400.0,472.0 C422.5,473.7 446.7,474.3 470.0,472.0 C493.3,469.7 520.3,465.0 540.0,458.0 C559.7,451.0 576.7,441.0 588.0,430.0 C599.3,419.0 604.7,398.3 608.0,392.0 " fill="none" stroke="#2DD4C8" stroke-width="30" stroke-linecap="round" stroke-opacity="0.35" filter="url(#glow)"/>
+<path d="M335.0,462.0 C345.8,463.7 377.5,470.3 400.0,472.0 C422.5,473.7 446.7,474.3 470.0,472.0 C493.3,469.7 520.3,465.0 540.0,458.0 C559.7,451.0 576.7,441.0 588.0,430.0 C599.3,419.0 604.7,398.3 608.0,392.0 " fill="none" stroke="#2DD4C8" stroke-width="20" stroke-linecap="round"/>
+<path d="M240.0,250.0 C255.0,240.0 291.7,203.7 330.0,190.0 C368.3,176.3 423.3,168.8 470.0,168.0 C516.7,167.2 571.7,173.8 610.0,185.0 C648.3,196.2 685.0,226.7 700.0,235.0 " fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round"/>
+<circle cx="240" cy="250" r="9" fill="#fff"/><circle cx="240" cy="250" r="16" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="2"/>
+<circle cx="470" cy="168" r="9" fill="#fff"/><circle cx="470" cy="168" r="16" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="2"/>
+<circle cx="700" cy="235" r="9" fill="#fff"/><circle cx="700" cy="235" r="16" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="2"/>
+<ellipse cx="318" cy="492" rx="30" ry="14" fill="#FFB454" fill-opacity="0.95" stroke="#fff" stroke-width="2.5"/>
+</g>
+<path d="M281,508 L62,546" stroke="#FFB454" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="281" cy="508" r="5" fill="#FFB454"/><circle cx="62" cy="546" r="5" fill="#FFB454"/>
+<text x="76" y="584" font-size="25" font-weight="800" fill="#FFB454">Entorhinaler Kortex</text>
+<text x="76" y="614" font-size="19" fill="#E6EEF7">Nachbar des Hippocampus. Hier beginnt bei</text>
+<text x="76" y="640" font-size="19" fill="#E6EEF7">Alzheimer die Tau-Ablagerung.</text>
+<path d="M352,233 L776,223" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="352" cy="233" r="5" fill="#FFFFFF"/>
+<circle cx="776" cy="223" r="5" fill="#FFFFFF"/>
+<text x="790" y="229" font-size="25" font-weight="800" fill="#FFFFFF">Ausweichnetzwerke</text>
+<text x="790" y="259" font-size="19" fill="#E6EEF7">Andere Hirnbereiche springen ein</text>
+<text x="790" y="285" font-size="19" fill="#E6EEF7">und gleichen Ausfälle aus (Kompensation).</text>
+<path d="M414,341 L776,343" stroke="#5FD39A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="414" cy="341" r="5" fill="#5FD39A"/>
+<circle cx="776" cy="343" r="5" fill="#5FD39A"/>
+<text x="790" y="349" font-size="25" font-weight="800" fill="#5FD39A">Striatum</text>
+<text x="790" y="379" font-size="19" fill="#E6EEF7">Teil der Basalganglien, tief im Gehirn.</text>
+<text x="790" y="405" font-size="19" fill="#E6EEF7">Hält eingeübte Abläufe und Gewohnheiten.</text>
+<path d="M405,495 L776,463" stroke="#2DD4C8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="405" cy="495" r="5" fill="#2DD4C8"/>
+<circle cx="776" cy="463" r="5" fill="#2DD4C8"/>
+<text x="790" y="469" font-size="25" font-weight="800" fill="#2DD4C8">Hippocampus</text>
+<text x="790" y="499" font-size="19" fill="#E6EEF7">Gedächtnis- und Orientierungszentrum.</text>
+<text x="790" y="525" font-size="19" fill="#E6EEF7">Baut die innere Karte neuer Orte.</text>
+<text x="790" y="551" font-size="19" fill="#E6EEF7">Bei Alzheimer früh betroffen.</text>
+<path d="M643,530 L776,583" stroke="#5FD39A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="643" cy="530" r="5" fill="#5FD39A"/>
+<circle cx="776" cy="583" r="5" fill="#5FD39A"/>
+<text x="790" y="589" font-size="25" font-weight="800" fill="#5FD39A">Kleinhirn</text>
+<text x="790" y="619" font-size="19" fill="#E6EEF7">Steuert eingeübte Bewegungsabläufe.</text>
+<rect x="48" y="690" width="540" height="130" rx="26" fill="#fff" fill-opacity="0.08" stroke="#5FD39A" stroke-opacity="0.7" stroke-width="2"/>
+<text x="78" y="730" font-size="22" font-weight="800" fill="#5FD39A">Zuhause</text>
+<text x="78" y="762" font-size="19" fill="#fff">Eingeübtes läuft von selbst, die Umgebung</text>
+<text x="78" y="788" font-size="19" fill="#fff">gibt Hinweise. Die Fassade hält.</text>
+<rect x="612" y="690" width="540" height="130" rx="26" fill="#fff" fill-opacity="0.08" stroke="#2DD4C8" stroke-opacity="0.8" stroke-width="2"/>
+<text x="642" y="730" font-size="22" font-weight="800" fill="#2DD4C8">Draußen</text>
+<text x="642" y="762" font-size="19" fill="#fff">Alles ist neu. Es bräuchte eine neue Karte.</text>
+<text x="642" y="788" font-size="19" fill="#fff">Die Fassade kann brechen.</text>
+<text x="48" y="846" font-size="15" fill="#A9BCD3">Schematisch, Lage vereinfacht. Eigene Darstellung nach De Wit et al. (2021), Laczó et al. (2022), Chen et al. (2026).</text>
+</svg>
