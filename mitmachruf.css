@@ -59,7 +59,7 @@ h2{letter-spacing:-.035em;text-wrap:balance}
 .mr-eq b{flex:0 0 5px;height:100%;border-radius:4px;background:linear-gradient(180deg,var(--pl-tq),#5FD39A);transform-origin:center;transform:scaleY(.14);opacity:.9}
 .mr-chev{display:flex;gap:2px;margin-top:34px;height:84px;align-items:center}
 .mr-chev svg{width:clamp(34px,3.6vw,56px);height:auto;fill:none;stroke:var(--pw-orange);stroke-width:9;stroke-linecap:square;stroke-linejoin:miter;opacity:.18;transition:opacity .25s}
-.mr-chev svg.on{opacity:1}
+.mr-chev svg.mr-on{opacity:1}
 
 /* Button */
 .mr-cta{margin-top:34px;align-self:flex-start;display:inline-flex;align-items:center;gap:14px;padding:8px 8px 8px 26px;border-radius:999px;text-decoration:none;font-weight:800;font-size:16px;
@@ -82,9 +82,9 @@ h2{letter-spacing:-.035em;text-wrap:balance}
   background:linear-gradient(90deg,var(--pl-tq) 0 50%,var(--pw-orange) 50% 100%);box-shadow:0 0 0 8px var(--pl-ice),0 30px 60px -20px rgba(0,0,0,.6);display:grid;place-items:center;
   animation:mr-float 5s ease-in-out infinite}
 @keyframes mr-float{50%{translate:0 -8px}}
-.mr-seal svg.ring{position:absolute;inset:0;width:100%;height:100%;animation:mr-spin 22s linear infinite}
+.mr-seal svg.mr-ring{position:absolute;inset:0;width:100%;height:100%;animation:mr-spin 22s linear infinite}
 @keyframes mr-spin{to{transform:rotate(360deg)}}
-.mr-seal svg.ring text{font:800 9px "Plus Jakarta Sans";letter-spacing:.38em;fill:var(--pl-navy)}
+.mr-seal svg.mr-ring text{font:800 10.4px "Plus Jakarta Sans";letter-spacing:.2em;fill:var(--pl-navy)}
 .mr-seal .mr-mid{position:relative;width:56%;aspect-ratio:1;border-radius:50%;background:var(--pl-navy);display:grid;place-items:center;
   transform:rotate(calc(var(--p) * 200deg));color:#fff;font-weight:800;font-size:clamp(22px,2.2vw,34px);letter-spacing:-.04em}
 .mr-seal .mr-mid em{font-style:normal;background:linear-gradient(90deg,var(--pl-tq),var(--pw-orange));-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -112,7 +112,7 @@ h2{letter-spacing:-.035em;text-wrap:balance}
 }
 @media(prefers-reduced-motion:reduce){
   .mr-cta,.mr-mail{opacity:1!important;transform:none!important}
-  .mr-seal,.mr-seal svg.ring,.mr-eyebrow i,.mr-hint i{animation:none}
+  .mr-seal,.mr-seal svg.mr-ring,.mr-eyebrow i,.mr-hint i{animation:none}
   .mr-stage{--p:.7}
 }
 
