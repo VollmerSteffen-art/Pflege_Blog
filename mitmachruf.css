@@ -84,7 +84,7 @@ h2{letter-spacing:-.035em;text-wrap:balance}
 @keyframes mr-float{50%{translate:0 -8px}}
 .mr-seal svg.mr-ring{position:absolute;inset:0;width:100%;height:100%;animation:mr-spin 22s linear infinite}
 @keyframes mr-spin{to{transform:rotate(360deg)}}
-.mr-seal svg.mr-ring text{font:800 10.4px "Plus Jakarta Sans";letter-spacing:.2em;fill:var(--pl-navy)}
+.mr-seal svg.mr-ring text{font:800 9.6px "Plus Jakarta Sans";letter-spacing:.3em;fill:var(--pl-navy)}
 .mr-seal .mr-mid{position:relative;width:56%;aspect-ratio:1;border-radius:50%;background:var(--pl-navy);display:grid;place-items:center;
   transform:rotate(calc(var(--p) * 200deg));color:#fff;font-weight:800;font-size:clamp(22px,2.2vw,34px);letter-spacing:-.04em}
 .mr-seal .mr-mid em{font-style:normal;background:linear-gradient(90deg,var(--pl-tq),var(--pw-orange));-webkit-background-clip:text;background-clip:text;color:transparent}
