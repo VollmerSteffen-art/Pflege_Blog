@@ -38,8 +38,8 @@
 .pc-l .pc-btn{background:var(--pc-tq);color:var(--pc-navy)}
 .pc-l .pc-btn .pc-isl{background:var(--pc-navy);color:var(--pc-tq)}
 .pc-l .pc-btn:hover{background:#fff;color:var(--pc-navy)}
-.pc-plat2{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-.pc-plat2 a,.pc-plat2 button{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:800;font-size:14px;text-decoration:none;padding:9px 18px;border-radius:999px;border:2px solid rgba(242,140,40,.7);background:transparent;color:var(--pc-cream);cursor:pointer;transition:background .25s,color .25s}
+.pc-plat2{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.pc-plat2 a,.pc-plat2 button{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:800;font-size:13px;text-decoration:none;padding:8px 15px;border-radius:999px;border:2px solid rgba(242,140,40,.7);background:transparent;color:var(--pc-cream);cursor:pointer;transition:background .25s,color .25s}
 .pc-plat2 a:hover,.pc-plat2 button:hover{background:var(--pc-or);color:var(--pc-blue)}
 .pc-plat2 .pc-p{background:var(--pc-or);color:var(--pc-blue);border-color:var(--pc-or)}
 .pc-coverbox{position:relative;width:clamp(150px,13vw,200px);aspect-ratio:1;margin-top:34px;margin-left:6px;padding:0;border:0;background:none;cursor:pointer;transform:rotate(-5deg);border-radius:6px;box-shadow:0 40px 80px -24px rgba(0,0,0,.7),0 0 0 6px rgba(242,238,231,.9);transition:transform .5s var(--pc-ease)}
