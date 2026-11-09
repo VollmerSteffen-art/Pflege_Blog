@@ -1,5 +1,5 @@
-@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
-@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-SemiBold.woff2) format("woff2"),url(assets/fonts/BarlowCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-Bold.woff2) format("woff2"),url(assets/fonts/BarlowCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
 .mr-ruf,.mr-ruf *{box-sizing:border-box}
 :where(.mr-ruf) p,:where(.mr-ruf) h2{margin:0}
 .mr-ruf{--pl-navy:#0B1F3A;--pl-navy-2:#12305A;--pl-tq:#2DD4C8;--pl-ice:#F4F8FB;--pw-blue:#18263D;--pw-blue-2:#314965;--pw-orange:#F28C28;--pw-cream:#F2EEE7;--ease:cubic-bezier(.32,.72,0,1);--p:0}
@@ -23,7 +23,7 @@
 @keyframes mr-wipeR{from{clip-path:inset(0 0 0 100%)}to{clip-path:inset(0 0 0 0)}}
 
 /* Leuchten, wandert beim Scrollen */
-.mr-glow{position:absolute;z-index:0!important;border-radius:50%;filter:blur(70px);pointer-events:none;will-change:transform}
+.mr-glow{position:absolute;z-index:0!important;border-radius:50%;pointer-events:none;will-change:transform}
 .mr-links .mr-glow{width:60vmin;height:60vmin;right:-18vmin;top:-14vmin;background:radial-gradient(circle,rgba(45,212,200,.5),transparent 68%);transform:translate3d(calc(var(--p) * -14vmin),calc(var(--p) * 26vmin),0)}
 .mr-rechts .mr-glow{width:60vmin;height:60vmin;left:-18vmin;bottom:-16vmin;background:radial-gradient(circle,rgba(242,140,40,.5),transparent 68%);transform:translate3d(calc(var(--p) * 14vmin),calc(var(--p) * -26vmin),0)}
 

@@ -11,7 +11,9 @@
   var chevs=[]; for(var j=0;j<6;j++){chevs.push(chev.appendChild(Object.assign(document.createElementNS('http://www.w3.org/2000/svg','svg'),{})))}
   chevs.forEach(function(s){s.setAttribute('viewBox','0 0 40 60');s.innerHTML='<path d="M8 6l24 24-24 24"/>'});
 
+  var fills=document.querySelectorAll('.mr-fill'), lastP=-1;
   function render(p){
+    if(Math.abs(p-lastP)<0.002&&p!==0&&p!==1)return; lastP=p;
     stage.style.setProperty('--p',p.toFixed(4));
     var e=Math.min(1,.18+p*1.6);
     bars.forEach(function(b,i){
@@ -23,12 +25,13 @@
     // Wörter füllen sich zwischen 8 % und 55 %
     var f=Math.max(0,Math.min(1,(p-.06)/.42));
     stage.style.setProperty('--f',f.toFixed(3));
-    document.querySelectorAll('.mr-fill').forEach(function(el){el.style.setProperty('--f',f.toFixed(3))});
+    fills.forEach(function(el){el.style.setProperty('--f',f.toFixed(3))});
   }
   function onScroll(){
     if(reduce){render(.7);return}
     if(mobile()){return}
     var r=ruf.getBoundingClientRect(), max=r.height-innerHeight;
+    if(r.bottom<-200||r.top>innerHeight+200)return;
     var p=Math.max(0,Math.min(1,-r.top/max));
     render(p);
   }

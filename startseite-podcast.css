@@ -1,13 +1,13 @@
 /* Startseite: Block zum zusammengelegten Podcast. Klassen mit Praefix sp- */
-@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
-@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-SemiBold.woff2) format("woff2"),url(assets/fonts/BarlowCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-Bold.woff2) format("woff2"),url(assets/fonts/BarlowCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
 .sp{--sp-navy:#0B1F3A;--sp-navy2:#12305A;--sp-tq:#2DD4C8;--sp-or:#F28C28;--sp-blue:#18263D;--sp-cream:#F2EEE7;--sp-ease:cubic-bezier(.32,.72,0,1);
   position:relative;overflow:hidden;isolation:isolate;color:#fff;background:linear-gradient(160deg,var(--sp-navy2),var(--sp-navy) 58%,var(--sp-blue));
   padding:clamp(90px,11vw,150px) 24px clamp(80px,10vw,130px);margin:calc(-1 * clamp(24px,4vw,56px)) 0;clip-path:polygon(0 clamp(24px,4vw,56px),100% 0,100% calc(100% - clamp(24px,4vw,56px)),0 100%)}
 .sp,.sp *{box-sizing:border-box}
 .sp p,.sp h2,.sp h3,.sp ol,.sp ul{margin:0;padding:0}
 .sp ol,.sp ul{list-style:none}
-.sp-glow{position:absolute;border-radius:50%;filter:blur(110px);pointer-events:none;z-index:0}
+.sp-glow{position:absolute;border-radius:50%;will-change:transform;pointer-events:none;z-index:0}
 .sp-g1{width:620px;height:620px;left:-180px;top:-120px;background:radial-gradient(circle,rgba(45,212,200,.45),transparent 68%);animation:sp-drift 16s ease-in-out infinite alternate}
 .sp-g2{width:640px;height:640px;right:-200px;bottom:-160px;background:radial-gradient(circle,rgba(242,140,40,.42),transparent 68%);animation:sp-drift 18s ease-in-out infinite alternate-reverse}
 @keyframes sp-drift{to{transform:translate(60px,40px)}}
@@ -50,7 +50,7 @@
 .sp-h3{font-size:clamp(28px,3.6vw,46px);line-height:1.08;letter-spacing:-.035em;color:#fff;font-weight:800;max-width:18em;text-wrap:balance}
 .sp-sub{margin-top:14px!important;max-width:36em;color:rgba(255,255,255,.78);font-size:17px;line-height:1.6}
 .sp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:34px!important}
-.sp-card{position:relative;overflow:hidden;padding:24px 22px 26px;border-radius:24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(6px);transition:transform .5s var(--sp-ease),border-color .3s,background .3s;--c:var(--sp-tq)}
+.sp-card{position:relative;overflow:hidden;padding:24px 22px 26px;border-radius:24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);transition:transform .5s var(--sp-ease),border-color .3s,background .3s;--c:var(--sp-tq)}
 .sp-card:nth-child(even){--c:var(--sp-or)}
 .sp-card:nth-child(3n+2){margin-top:22px}
 .sp-card:hover{transform:translateY(-8px) rotate(-.8deg);border-color:var(--c);background:rgba(255,255,255,.09)}

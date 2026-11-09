@@ -1,6 +1,6 @@
 /* Podcastseite: links Pflegelaborblog, rechts Pflege weitergedacht. Alle Klassen mit Praefix pc- */
-@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
-@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-SemiBold.woff2) format("woff2"),url(assets/fonts/BarlowCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url(assets/fonts/BarlowCondensed-Bold.woff2) format("woff2"),url(assets/fonts/BarlowCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
 :root{--pc-navy:#0B1F3A;--pc-navy2:#12305A;--pc-tq:#2DD4C8;--pc-tqd:#0A7C84;--pc-blue:#18263D;--pc-blue2:#314965;--pc-or:#F28C28;--pc-cream:#F2EEE7;--pc-ease:cubic-bezier(.32,.72,0,1)}
 .pc-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .pc-hero,.pc-hero *,.pc-sec *,.pc-mit *,.pc-dlg *{box-sizing:border-box}
@@ -12,7 +12,7 @@
 .pc-side>*{position:relative;z-index:2}
 .pc-l{background:linear-gradient(160deg,var(--pc-navy2),var(--pc-navy) 65%);color:#fff;clip-path:polygon(0 0,100% 0,calc(100% - 9vw) 100%,0 100%);padding-right:calc(clamp(24px,5vw,80px) + 6vw);z-index:1}
 .pc-r{background:linear-gradient(200deg,var(--pc-blue2),var(--pc-blue) 62%);color:var(--pc-cream);font-family:"Barlow Condensed",sans-serif;margin-left:-9vw;padding-left:calc(clamp(24px,5vw,80px) + 9vw);clip-path:polygon(9vw 0,100% 0,100% 100%,0 100%)}
-.pc-glow{position:absolute;border-radius:50%;filter:blur(110px);pointer-events:none;z-index:0!important}
+.pc-glow{position:absolute;border-radius:50%;pointer-events:none;z-index:0!important}
 .pc-l .pc-glow{width:60vmin;height:60vmin;left:-12vmin;top:-14vmin;background:radial-gradient(circle,rgba(45,212,200,.5),transparent 68%)}
 .pc-r .pc-glow{width:64vmin;height:64vmin;right:-16vmin;bottom:-20vmin;background:radial-gradient(circle,rgba(242,140,40,.5),transparent 68%)}
 .pc-ghost{position:absolute!important;z-index:1!important;white-space:nowrap;color:transparent;line-height:.8;font-weight:800;letter-spacing:-.05em;pointer-events:none;user-select:none}
