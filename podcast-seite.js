@@ -22,3 +22,22 @@
   }, { threshold: 0.12 });
   Array.prototype.forEach.call(rv, function (el, i) { el.style.transitionDelay = (i % 4) * 70 + "ms"; io.observe(el); });
 })();
+// Zahl in der Info unten hochzaehlen, sobald sichtbar
+(function () {
+  var z = document.querySelector(".pc-info [data-count]");
+  if (!z || !("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) { return; }
+  var ziel = parseInt(z.getAttribute("data-count"), 10); z.textContent = "0";
+  var io = new IntersectionObserver(function (es) {
+    if (!es[0].isIntersecting) { return; }
+    io.disconnect();
+    var t0 = null;
+    function schritt(t) {
+      if (t0 === null) { t0 = t; }
+      var p = Math.min(1, (t - t0) / 1800), e = 1 - Math.pow(1 - p, 3);
+      z.textContent = Math.round(ziel * e);
+      if (p < 1) { requestAnimationFrame(schritt); }
+    }
+    requestAnimationFrame(schritt);
+  }, { threshold: 0.4 });
+  io.observe(z);
+})();
