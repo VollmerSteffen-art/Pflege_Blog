@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 570" width="920" height="570" role="img">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<title>Der Weg des Zuckers nach dem Essen</title>
+<desc>Ablauf nach dem Essen: Glukose gelangt ins Blut, die Bauchspeicheldrüse schüttet Insulin aus, Insulin öffnet den Rezeptor der Körperzelle, Glukose tritt ein und der Blutzuckerspiegel sinkt.</desc>
+<rect width="920" height="570" fill="#FFFFFF"/>
+      <defs>
+        <marker id="ar1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#14191F"/>
+        </marker>
+        <marker id="ar1g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#B87413"/>
+        </marker>
+        <marker id="ar1i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#15707F"/>
+        </marker>
+        <g id="key1" fill="none" stroke="#15707F" stroke-width="2.4" stroke-linecap="round">
+          <circle cx="0" cy="0" r="7"/>
+          <line x1="7" y1="0" x2="32" y2="0"/>
+          <line x1="23" y1="0" x2="23" y2="8"/>
+          <line x1="28" y1="0" x2="28" y2="7"/>
+        </g>
+      </defs>
+
+      <!-- 1 Nahrung -->
+      <circle cx="62" cy="44" r="12" fill="#14191F"/>
+      <text x="62" y="49" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="84" y="49" font-size="15" font-weight="600" fill="#14191F">Wir essen in der Pause</text>
+      <ellipse cx="140" cy="132" rx="54" ry="13" fill="#F7F9FB" stroke="#D3DAE1" stroke-width="2"/>
+      <path d="M114,126 A26,26 0 0 1 166,126 Z" fill="#F4E2C3" stroke="#B87413" stroke-width="2"/>
+      <line x1="140" y1="150" x2="140" y2="208" stroke="#B87413" stroke-width="2.2" marker-end="url(#ar1g)"/>
+      <text x="160" y="160" font-size="13" fill="#59656F">Kohlenhydrate werden im Darm</text>
+      <text x="160" y="176" font-size="13" fill="#59656F">zu Glukose gespalten (Resorption)</text>
+
+      <!-- Blutgefaess -->
+      <rect x="40" y="215" width="840" height="104" rx="52" fill="#F7E4E2" stroke="#A63A32" stroke-width="2"/>
+      <text x="872" y="206" text-anchor="end" font-size="11" font-weight="600" letter-spacing="1.4" fill="#A63A32">BLUTBAHN (BLUTGEFÄSS)</text>
+
+      <!-- 2 Glukose dicht -->
+      <g fill="#F4E2C3" stroke="#B87413" stroke-width="1.8">
+        <circle cx="72" cy="245" r="8"/><circle cx="100" cy="284" r="8"/><circle cx="130" cy="252" r="8"/>
+        <circle cx="158" cy="290" r="8"/><circle cx="186" cy="248" r="8"/><circle cx="214" cy="286" r="8"/>
+        <circle cx="242" cy="255" r="8"/><circle cx="270" cy="292" r="8"/><circle cx="298" cy="246" r="8"/>
+        <circle cx="326" cy="284" r="8"/><circle cx="354" cy="258" r="8"/><circle cx="382" cy="290" r="8"/>
+        <circle cx="408" cy="250" r="8"/><circle cx="462" cy="286" r="8"/><circle cx="516" cy="252" r="8"/>
+        <circle cx="568" cy="288" r="8"/><circle cx="626" cy="250" r="8"/><circle cx="664" cy="286" r="8"/>
+        <circle cx="792" cy="284" r="8"/><circle cx="846" cy="254" r="8"/>
+      </g>
+      <circle cx="330" cy="196" r="12" fill="#14191F"/>
+      <text x="330" y="201" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="350" y="201" font-size="15" font-weight="600" fill="#14191F">Blutzucker steigt an</text>
+
+      <!-- Insulin im Blut -->
+      <use href="#key1" transform="translate(436,268) scale(0.62)"/>
+      <use href="#key1" transform="translate(492,240) scale(0.62)"/>
+      <use href="#key1" transform="translate(600,272) scale(0.62)"/>
+
+      <!-- 3 Pankreas -->
+      <ellipse cx="230" cy="420" rx="78" ry="30" fill="#D6EAEE" stroke="#15707F" stroke-width="2"/>
+      <line x1="170" y1="398" x2="170" y2="327" stroke="#15707F" stroke-width="2.2" marker-end="url(#ar1i)"/>
+      <circle cx="96" cy="466" r="12" fill="#14191F"/>
+      <text x="96" y="471" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="118" y="471" font-size="14" font-weight="600" fill="#14191F">Pankreas schüttet Insulin aus</text>
+      <text x="118" y="490" font-size="13" fill="#59656F">Bauchspeicheldrüse, die Betazellen bilden das Insulin</text>
+
+      <!-- 4 Rezeptor mit Schluessel -->
+      <text x="548" y="344" text-anchor="end" font-size="15" font-weight="600" fill="#14191F">Insulin öffnet das Schloss</text>
+      <text x="548" y="362" text-anchor="end" font-size="13" fill="#59656F">(Insulinrezeptor der Zelle)</text>
+      <circle cx="310" cy="339" r="12" fill="#14191F"/>
+      <text x="310" y="344" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+
+      <!-- Zelle -->
+      <rect x="520" y="380" width="330" height="140" rx="26" fill="#E6EDF2" stroke="#14191F" stroke-width="2.6"/>
+      <rect x="562" y="364" width="36" height="26" rx="6" fill="#F7F9FB" stroke="#14191F" stroke-width="2"/>
+      <circle cx="580" cy="374" r="4" fill="#14191F"/>
+      <polygon points="577,376 583,376 585,386 575,386" fill="#14191F"/>
+      <use href="#key1" transform="translate(580,336) rotate(90)"/>
+      <rect x="686" y="373" width="28" height="14" fill="#FFFFFF"/>
+      <line x1="700" y1="312" x2="700" y2="424" stroke="#B87413" stroke-width="2.2" marker-end="url(#ar1g)"/>
+      <g fill="#F4E2C3" stroke="#B87413" stroke-width="1.8">
+        <circle cx="700" cy="446" r="8"/><circle cx="662" cy="474" r="8"/><circle cx="742" cy="470" r="8"/>
+      </g>
+      <circle cx="742" cy="338" r="12" fill="#14191F"/>
+      <text x="742" y="343" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">5</text>
+      <text x="762" y="343" font-size="15" font-weight="600" fill="#14191F">Glukose tritt ein</text>
+      <text x="685" y="545" text-anchor="middle" font-size="14" font-weight="600" fill="#14191F">Körperzelle (zum Beispiel Muskelzelle)</text>
+
+      <!-- 6 Verlaufskurve -->
+      <rect x="545" y="30" width="345" height="148" rx="14" fill="#F7F9FB" stroke="#D3DAE1" stroke-width="1.5"/>
+      <circle cx="572" cy="52" r="11" fill="#14191F"/>
+      <text x="572" y="57" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">6</text>
+      <text x="590" y="57" font-size="13.5" font-weight="600" fill="#14191F">Blutzuckerspiegel sinkt wieder</text>
+      <rect x="562" y="134" width="312" height="18" fill="#F4E2C3"/>
+      <text x="872" y="170" text-anchor="end" font-size="10.5" letter-spacing="0.8" fill="#59656F">NORMBEREICH</text>
+      <polyline points="562,143 600,142 640,112 680,82 720,76 762,94 812,126 874,142" fill="none" stroke="#B87413" stroke-width="2.6" stroke-linejoin="round"/>
+      <circle cx="600" cy="142" r="4" fill="#B87413"/>
+      <text x="600" y="170" text-anchor="middle" font-size="11" fill="#59656F">Essen</text>
+      <circle cx="720" cy="76" r="4" fill="#15707F"/>
+      <text x="734" y="72" font-size="11" fill="#59656F">Insulin wirkt</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 310" width="880" height="310" role="img">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<title>Mit und ohne Insulinmangel</title>
+<desc>Vergleich: Ohne Insulinmangel steckt der Schlüssel im Schloss, die Zelle nimmt Glukose auf und der Blutzucker ist normal. Bei Insulinmangel fehlt der Schlüssel, die Zelle bleibt zu und der Zucker staut sich im Blut.</desc>
+<rect width="880" height="310" fill="#FFFFFF"/>
+      <defs>
+        <marker id="ar2g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#B87413"/>
+        </marker>
+        <g id="key2" fill="none" stroke="#15707F" stroke-width="2.4" stroke-linecap="round">
+          <circle cx="0" cy="0" r="7"/>
+          <line x1="7" y1="0" x2="32" y2="0"/>
+          <line x1="23" y1="0" x2="23" y2="8"/>
+          <line x1="28" y1="0" x2="28" y2="7"/>
+        </g>
+      </defs>
+
+      <!-- Panel A -->
+      <text x="10" y="20" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#15707F">OHNE INSULINMANGEL</text>
+      <rect x="10" y="40" width="400" height="64" rx="32" fill="#F7E4E2" stroke="#A63A32" stroke-width="2"/>
+      <g fill="#F4E2C3" stroke="#B87413" stroke-width="1.8">
+        <circle cx="70" cy="72" r="8"/><circle cx="150" cy="60" r="8"/><circle cx="240" cy="84" r="8"/><circle cx="340" cy="70" r="8"/>
+      </g>
+      <text x="66" y="150" text-anchor="middle" font-size="12.5" fill="#59656F">Schlüssel passt</text>
+      <use href="#key2" transform="translate(150,132) rotate(90)"/>
+      <rect x="90" y="180" width="250" height="90" rx="20" fill="#E6EDF2" stroke="#14191F" stroke-width="2.6"/>
+      <rect x="134" y="164" width="32" height="24" rx="5" fill="#F7F9FB" stroke="#14191F" stroke-width="2"/>
+      <circle cx="150" cy="173" r="3.6" fill="#14191F"/>
+      <polygon points="147,175 153,175 155,184 145,184" fill="#14191F"/>
+      <rect x="256" y="173" width="28" height="14" fill="#FFFFFF"/>
+      <line x1="270" y1="112" x2="270" y2="216" stroke="#B87413" stroke-width="2.2" marker-end="url(#ar2g)"/>
+      <g fill="#F4E2C3" stroke="#B87413" stroke-width="1.8">
+        <circle cx="270" cy="238" r="8"/><circle cx="222" cy="252" r="8"/>
+      </g>
+      <text x="175" y="296" text-anchor="middle" font-size="14" font-weight="600" fill="#14191F">Blutzucker normal (Normoglykämie)</text>
+
+      <!-- Panel B -->
+      <text x="470" y="20" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#A63A32">BEI INSULINMANGEL</text>
+      <rect x="470" y="40" width="400" height="64" rx="32" fill="#F7E4E2" stroke="#A63A32" stroke-width="2"/>
+      <g fill="#F4E2C3" stroke="#B87413" stroke-width="1.8">
+        <circle cx="500" cy="60" r="8"/><circle cx="540" cy="86" r="8"/><circle cx="580" cy="58" r="8"/><circle cx="620" cy="88" r="8"/>
+        <circle cx="660" cy="62" r="8"/><circle cx="700" cy="86" r="8"/><circle cx="740" cy="58" r="8"/><circle cx="780" cy="88" r="8"/>
+        <circle cx="820" cy="62" r="8"/><circle cx="850" cy="86" r="8"/>
+      </g>
+      <text x="526" y="150" text-anchor="middle" font-size="12.5" fill="#59656F">kein Schlüssel da</text>
+      <rect x="550" y="180" width="250" height="90" rx="20" fill="#E6EDF2" stroke="#14191F" stroke-width="2.6"/>
+      <rect x="594" y="164" width="32" height="24" rx="5" fill="#F7F9FB" stroke="#14191F" stroke-width="2"/>
+      <circle cx="610" cy="173" r="3.6" fill="#14191F"/>
+      <polygon points="607,175 613,175 615,184 605,184" fill="#14191F"/>
+      <line x1="730" y1="112" x2="730" y2="152" stroke="#B87413" stroke-width="2.2"/>
+      <g stroke="#A63A32" stroke-width="3.4" stroke-linecap="round">
+        <line x1="720" y1="158" x2="740" y2="178"/>
+        <line x1="740" y1="158" x2="720" y2="178"/>
+      </g>
+      <text x="635" y="296" text-anchor="middle" font-size="14" font-weight="600" fill="#14191F">Blutzucker bleibt hoch (Hyperglykämie)</text>
+</svg>
